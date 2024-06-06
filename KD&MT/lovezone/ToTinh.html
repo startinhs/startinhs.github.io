@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>^^</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #ff1493;
+        }
+        .buttons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+        button {
+            background-color: #ff1493;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0 10px;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+        button:hover {
+            background-color: #ff69b4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bé Diễm đồng ý làm Dearie của anh nhá ^^</h1>
+        <div class="buttons">
+            <button id="accept" onclick="accept()">Đồng ý có bất ngờ</button>
+            <button id="decline" onmouseover="swapButtons()">Không đồng ý</button>
+        </div>
+        <p id="message" style="margin-top: 20px; color: #008000;"></p>
+    </div>
+    <script>
+        function accept() {
+            window.location.href = "https://startinh.github.io/KD&MT/lovezone/Counter.html"; // Chuyển hướng đến trang bạn muốn
+        }
+
+
+        function swapButtons() {
+            const acceptButton = document.getElementById('accept');
+            const declineButton = document.getElementById('decline');
+
+            // Lưu trữ vị trí hiện tại của các nút
+            const acceptRect = acceptButton.getBoundingClientRect();
+            const declineRect = declineButton.getBoundingClientRect();
+
+            // Đổi chỗ các nút
+            acceptButton.style.position = 'absolute';
+            declineButton.style.position = 'absolute';
+            acceptButton.style.left = `${declineRect.left - acceptRect.left + acceptButton.offsetLeft}px`;
+            acceptButton.style.top = `${declineRect.top - acceptRect.top + acceptButton.offsetTop}px`;
+            declineButton.style.left = `${acceptRect.left - declineRect.left + declineButton.offsetLeft}px`;
+            declineButton.style.top = `${acceptRect.top - declineRect.top + declineButton.offsetTop}px`;
+        }
+    </script>
+</body>
+</html>
+
+
