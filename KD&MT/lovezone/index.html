@@ -460,7 +460,9 @@
                             
                             
                         </ul>
-                        <ul id="content">Loading files...</ul>
+                    </br>
+                
+                        <ul id="content">Loading Google Driver...</ul>
                     </div>
                 </div>
             </div>
@@ -506,7 +508,7 @@
     </div>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-          const apiUrl = 'YOUR_WEB_APP_URL'; // Thay thế bằng URL của web app của bạn
+          const apiUrl = 'https://script.google.com/macros/s/AKfycbwlUvjmORI8dJEOM2CjLtqez1he3lN1gG9gYaqifXyoRQQ01lMM64Ppv0ZyuNL0HnNDkg/exec'; // Thay thế bằng URL của web app của bạn
           
           fetch(apiUrl)
             .then(response => response.json())
@@ -531,7 +533,7 @@
     
                   const span = document.createElement('span');
                   span.style.cssText = 'font-size: 10px !important; font-family: Comfortaa !important;';
-                  span.innerText = '06/05/2024';
+                  span.innerText = '';
     
                   div.appendChild(span);
                   a.appendChild(div);
