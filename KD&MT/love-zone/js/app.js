@@ -1,4 +1,4 @@
-const yourDate = new Date("2024-06-06T00:00:00"), yourDate2 = new Date("2024-04-11T00:00:00"),
+const yourDate = new Date("2024-06-06T00:00:00"), yourDate2 = new Date("2024-05-06T00:00:00"), yourDate3 = new Date("2024-04-11T00:00:00"),
       music = ['ido', 'Lemon-Kenshi-Yonezu'];
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
       document.querySelector("anni").textContent = `${(yourDate.getDate() > 9) ? yourDate.getDate() : "0" + yourDate.getDate()}-${(yourDate.getMonth() > 8) ? (yourDate.getMonth() + 1) : "0" + (yourDate.getMonth() + 1)}-${yourDate.getFullYear()}`;
 
       document.querySelector("date").textContent = Math.floor(Math.floor((new Date() - yourDate) / 1000) / 60 / 60 / 24) + " DAYS";
-      document.querySelector("count").textContent = Math.floor(Math.floor((new Date() - yourDate2) / 1000) / 60 / 60 / 24) + " Ngày";
+      document.querySelector("count1").textContent = Math.floor(Math.floor((new Date() - yourDate2) / 1000) / 60 / 60 / 24) + " Ngày";
+      document.querySelector("count2").textContent = Math.floor(Math.floor((new Date() - yourDate3) / 1000) / 60 / 60 / 24) + " Ngày";
       // document.querySelector("count").textContent = Math.floor(365 - (Math.floor((new Date() - yourDate) / 1000) / 60 / 60 / 24) + 1) + " DAYS";
 
       function olock() {

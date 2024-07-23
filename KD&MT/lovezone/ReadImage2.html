@@ -4,39 +4,20 @@
   <title>Google Drive Files</title>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      const apiUrl = 'https://script.google.com/macros/s/AKfycbwlUvjmORI8dJEOM2CjLtqez1he3lN1gG9gYaqifXyoRQQ01lMM64Ppv0ZyuNL0HnNDkg/exec'; // Thay thế bằng URL của web app của bạn
+      const apiUrl = 'https://script.google.com/macros/s/AKfycbwlUvjmORI8dJEOM2CjLtqez1he3lN1gG9gYaqifXyoRQQ01lMM64Ppv0ZyuNL0HnNDkg/exec';
       
       fetch(apiUrl)
         .then(response => response.json())
         .then(files => {
           const content = document.getElementById('content');
-          if (files.error) {
-            content.innerText = 'Error: ' + files.error;
-          } else {
-            files.forEach(file => {
-              const li = document.createElement('li');
-              li.className = 'one-third animate-box';
-              li.setAttribute('data-animate-effect', 'fadeIn');
-              li.style.backgroundImage = `url(${file.url})`;
-
-              const a = document.createElement('a');
-              a.href = '#';
-              a.setAttribute('data-toggle', 'modal');
-              a.setAttribute('data-target', '#fsModal');
-
-              const div = document.createElement('div');
-              div.className = 'case-studies-summary';
-
-              const span = document.createElement('span');
-              span.style.cssText = 'font-size: 10px !important; font-family: Comfortaa !important;';
-              span.innerText = '06/05/2024';
-
-              div.appendChild(span);
-              a.appendChild(div);
-              li.appendChild(a);
-              content.appendChild(li);
-            });
-          }
+          files.forEach(file => {
+            const link = document.createElement('a');
+            link.href = file.url;
+            link.innerText = file.url; // Hiển thị link ảnh thay vì tên file
+            link.target = '_blank';
+            content.appendChild(link);
+            content.appendChild(document.createElement('br'));
+          });
         })
         .catch(error => {
           console.error('Error fetching files:', error);
@@ -44,13 +25,8 @@
         });
     });
   </script>
-  <style>
-    ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; }
-    li { margin: 10px; padding: 20px; background-size: cover; background-position: center; width: 30%; height: 200px; display: flex; align-items: flex-end; }
-    .case-studies-summary { background: rgba(0, 0, 0, 0.5); padding: 10px; }
-  </style>
 </head>
 <body>
-  <ul id="content">Loading files...</ul>
+  <div id="content">Loading files...</div>
 </body>
 </html>
