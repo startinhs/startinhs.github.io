@@ -35,13 +35,12 @@
 
 
 
-	<link href="//bizweb.dktcdn.net/100/432/370/themes/894869/assets/sidebar_style.scss.css?1676276556806"
+
+	<link href="//bizweb.dktcdn.net/100/432/370/themes/894869/assets/product_style.scss.css?1676276556806"
 		rel="stylesheet" type="text/css" media="all" />
 
 
 
-	<link href="//bizweb.dktcdn.net/100/432/370/themes/894869/assets/collection_style.scss.css?1676276556806"
-		rel="stylesheet" type="text/css" media="all" />
 	<link href="//bizweb.dktcdn.net/100/432/370/themes/894869/assets/responsive.scss.css?1676276556806" rel="stylesheet"
 		type="text/css" media="all" />
 	<link href="//bizweb.dktcdn.net/100/432/370/themes/894869/assets/quickviews.scss.css?1676276556806" rel="stylesheet"
@@ -61,7 +60,7 @@
 		Bizweb.store = 'template-catchy-pet.mysapo.net';
 		Bizweb.id = 432370;
 		Bizweb.theme = { "id": 894869, "name": "Catchy Pet 13-02-2023", "role": "main" };
-		Bizweb.template = 'collection';
+		Bizweb.template = 'product';
 		if (!Bizweb.fbEventId) Bizweb.fbEventId = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
 			var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
 			return v.toString(16);
@@ -93,6 +92,11 @@
 
 		var meta = {};
 
+		meta.product = {
+			"id": 22476024, "vendor": "Tropiclean", "name": "Nước rửa khóe mắt chó mèo beaphar",
+			"type": "", "price": 190000
+		};
+
 
 		for (var attr in meta) {
 			window.BizwebAnalytics.meta[attr] = meta[attr];
@@ -101,19 +105,6 @@
 
 
 	<script src="/dist/js/stats.min.js?v=96f2ff2"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	<script type="application/ld+json">
         {
@@ -131,25 +122,16 @@
                 }
             },
       
-        
-      
-      {
+            {
                 "@type": "ListItem",
                 "position": 2,
                 "item": 
                 {
-                  "@id": "https://template-catchy-pet.mysapo.net/collections/all",
-                  "name": "Tất cả sản phẩm"
+                  "@id": "https://template-catchy-pet.mysapo.net/nuoc-rua-khoe-mat-cho-meo-beaphar",
+                  "name": "Nước rửa khóe mắt chó mèo beaphar"
                 }
             }
-      
-      
-      
-      
-      
-      
-      
-    
+
         ]
         }
 </script>
@@ -349,13 +331,14 @@
                         <div class="rows row-noGutter-2">
                             <nav class="header-nav">
                                 <ul class="item_big">
-                                    
-                                    <li class="nav-item ">
+
+                                    <li class="nav-item  ">
                                         <a class="a-img" href="../">
                                             <span>ㅤTrang chủ</span>
                                         </a>
                                     </li>
-                                    <li class="nav-item level0  active">
+
+                                    <li class="nav-item level0 active ">
                                         <a class="a-img" href="../cho-phoc-soc">
                                             <span>Chó cảnh
                                                 <svg aria-hidden="true" focusable="false" data-prefix="fas"
@@ -442,13 +425,11 @@
 
                                         </ul>
                                     </li>
-
-                                    <li class="nav-item ">
+									<li class="nav-item" >
                                         <a class="a-img" href="../tin-tuc.html">
                                             <span>Tin tức</span>
                                         </a>
                                     </li>
-
 
                                 </ul>
                                 <ul class="logo_center">
@@ -494,7 +475,7 @@
             </div>
         </div>
     </header>
-    <div class="header_search">
+	<div class="header_search">
         <form class="input-group search-bar">
             <div class="collection-selector hidden-xs hidden-sm">
                 <div class="search_text">Chọn danh mục</div>
@@ -545,9 +526,18 @@
 									<span class="mr_lr">&nbsp;/&nbsp;</span>
 								</li>
 
+                                <li>
+									<a class="changeurl" href="./"><span>Chó cảnh</span></a>
+									<span class="mr_lr">&nbsp;/&nbsp;</span>
+								</li>
 
-								<li><strong><span> Chó cảnh</span></strong></li>
+								<li>
+									<a class="changeurl" href="./"><span>Chó phốc sóc</span></a>
+									<span class="mr_lr">&nbsp;/&nbsp;</span>
+								</li>
 
+								<li><strong><span>Chó phốc sóc màu đen</span></strong>
+								<li>
 
 							</ul>
 						</div>
@@ -555,1182 +545,1651 @@
 				</div>
 			</section>
 		</div>
-		<div class="section wrap_background padding-bottom-40">
-			<div class="container ">
-				<div class="bg_collection section">
-					<div class="row">
-						<aside class="dqdt-sidebar sidebar left-content col-xl-3 col-lg-3 col-md-4 col-sm-4">
-							<div class="wrap_background_aside asidecollection">
+		<section class="product details-main">
+			<meta itemprop="brand" content="Tropiclean">
+			<form id="add-to-cart-form"
+				class="form_background form-inline margin-bottom-0">
+				<div class="container">
+					<div class="section wrap-padding-15 wp_product_main">
+						<div class="details-product section">
+							<div class="row ">
+								<div
+									class="product-detail-left product-images left-content col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-6">
 
-								<aside class="aside-item sidebar-category collection-category">
-									<div class="aside-title">
-										<h2 class="title-head margin-top-0 cate"><span>Phân loại chó</span></h2>
-									</div>
-									<div class="aside-content">
-										<nav class="nav-category navbar-toggleable-md">
-											<ul class="nav navbar-pills">
+									<div class="col_large_default large-image">
+										<div class="swiper-container swiper_big_image clearfix margin-bottom-20">
+											<div class="swiper-wrapper">
 
-												<li class="nav-item"><a class="nav-link" href="../cho-phoc-soc"><span>Chó phốc sóc</span>
+												<div class="item swiper-slide">
+													<a class="img_big img-product"
+														href="https://pethouse.com.vn/wp-content/uploads/2024/07/z5590779691005_231dc118a07e07f425a9b6a26fbd2ef2-1024x1536.jpg"
+														title="Click để xem">
+														<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
+															data-src="https://pethouse.com.vn/wp-content/uploads/2024/07/z5590779691005_231dc118a07e07f425a9b6a26fbd2ef2-1024x1536.jpg"
+														
+															class="lazyload img-responsive mx-auto d-block">
 													</a>
-												</li>
+												</div>
 
-												<li class="nav-item"><a class="nav-link" href="../cho-corgi"><span>Chó corgi</span>
+												<div class="item swiper-slide">
+													<a class="img_big img-product"
+														href="https://pethouse.com.vn/wp-content/uploads/2024/07/z5590779693652_3a7d48899bfe421db13f622275eceb91-1024x1536.jpg"
+														title="Click để xem">
+														<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
+															data-src="https://pethouse.com.vn/wp-content/uploads/2024/07/z5590779693652_3a7d48899bfe421db13f622275eceb91-1024x1536.jpg"
+															
+															class="lazyload img-responsive mx-auto d-block">
 													</a>
-												</li>
+												</div>
 
-												<li class="nav-item"><a class="nav-link" href="../cho-lap-xuong"><span>Chó lạp xưởng</span>
+                                                <div class="item swiper-slide">
+													<a class="img_big img-product"
+														href="https://pethouse.com.vn/wp-content/uploads/2024/07/z5590779681311_df87bd0cfcf04c561bfb58a0f308cc40-1024x1536.jpg"
+														title="Click để xem">
+														<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
+															data-src="https://pethouse.com.vn/wp-content/uploads/2024/07/z5590779681311_df87bd0cfcf04c561bfb58a0f308cc40-1024x1536.jpg"
+															
+															class="lazyload img-responsive mx-auto d-block">
 													</a>
-												</li>
+												</div>
 
-												<li class="nav-item"><a class="nav-link" href="../cho-shiba/"><span>Chó shiba</span>
-													</a>
-												</li>
+												
 
-												<li class="nav-item"><a class="nav-link" href="../cho-poodle/"><span>Chó poodle</span>
-													</a>
-												</li>
-
-
-											</ul>
-										</nav>
-									</div>
-								</aside>
-
-								<div class="filter-content aside-filter">
-									<div class="filter-container">
-										<div class="filter-container__selected-filter clearfix" style="display: none;">
-											<div class="filter-container__selected-filter-header clearfix">
-												<span class="filter-container__selected-filter-header-title"><i
-														class="fa fa-arrow-left hidden-sm-up"></i> Bạn chọn</span>
-												<a href="javascript:void(0)" onclick="clearAllFiltered()"
-													class="filter-container__clear-all">Bỏ hết <i
-														class="fa fa-angle-right"></i></a>
-											</div>
-											<div class="filter-container__selected-filter-list">
-												<ul></ul>
 											</div>
 										</div>
+									</div>
 
-										<!-- Lọc Thương hiệu -->
+									<div class="thumb_product_details">
+										<div class="swiper-container swiper_thumb_image clearfix">
+											<div class="swiper-wrapper">
 
+												<div class="item swiper-slide">
+													<a class="a_img">
+														<img class="lazyload"
+															src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
+															data-src="https://pethouse.com.vn/wp-content/uploads/2024/07/z5590779691005_231dc118a07e07f425a9b6a26fbd2ef2-1024x1536.jpg"
+														/>
+													</a>
+												</div>
 
+												<div class="item swiper-slide">
+													<a class="a_img">
+														<img class="lazyload"
+															src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
+															data-src="https://pethouse.com.vn/wp-content/uploads/2024/07/z5590779693652_3a7d48899bfe421db13f622275eceb91-1024x1536.jpg"
+														/>
+													</a>
+												</div>
 
-										<!-- <aside class="aside-item filter-sidebar filter-vendor">
-											<div class="aside-title">
-												<h2 class="title-filter title-head margin-top-0">
-													<span>
-														Chọn thương hiệu
-													</span>
-												</h2>
+                                                <div class="item swiper-slide">
+													<a class="a_img">
+														<img class="lazyload"
+															src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
+															data-src="https://pethouse.com.vn/wp-content/uploads/2024/07/z5590779681311_df87bd0cfcf04c561bfb58a0f308cc40-1024x1536.jpg"
+														/>
+													</a>
+												</div>
+
+												
+
 											</div>
-											<div class="aside-content margin-top-0 filter-group">
-												<div class="search-collection">
-													<input type="text" placeholder="Bạn muốn tìm gì?"
-														class="form-control filter-vendor-list"
-														onkeyup="filterItemInList(jQuery('.filter-vendor-list'))">
-													<div class="button_search">
-														<button type="submit" class="btn btn-default">
+										</div>
+									</div>
+
+
+
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-6 details-pro">
+									<h1 class="title-product">Chó Phốc Sóc màu đen</h1>
+									<div class="group-status">
+										<span class="product_type first_status">
+											<span class="status_name ">
+												<table border="1" cellpadding="1" cellspacing="1" style="width:100%;">
+													<tbody>
+														<tr>
+															<td><b>Tuổi</b></td>
+															<td><b>Giới tính</b></td>
+                                                            <td><b>Màu</b></td>
+															<td><b>Sức khoẻ</b></td>
+															<td><b>Tẩy giun</b></td>
+															<td><b>Tiêm phòng</b></td>
+															<td><b>Đặc điểm</b></td>
+														</tr>
+														<tr>
+															<td>5 tháng</td>
+															<td>Đực</td>
+                                                            <td>Đen</td>
+															<td>Tốt</td>
+															<td>1 lần</td>
+															<td>3 mũi vacxin</td>
+															<td>Lông dày</td>
+														</tr>
+														
+														
+													</tbody>
+												</table>
+
+											</span>
+										</span>
+										<span class="first_status status">
+											Tình trạng:
+
+
+											<span class="status_name availabel">
+												Còn hàng
+											</span>
+
+
+										</span>
+									</div>
+									<div class="price-box">
+
+										<span class="special-price"><span class="price product-price">10.000.000₫</span>
+										</span> <!-- Giá Khuyến mại -->
+										<!-- <span class="old-price">
+											<del class="price product-price-old sale">21.100.000₫</del>
+										</span> -->
+
+									</div>
+									<div class="form-product col-sm-12">
+
+
+										<div class="box-variant clearfix ">
+
+											<input type="hidden" name="variantId" value="49192352" />
+
+										</div>
+										<div class="form-group form_button_details">
+											<div class="form_product_content type1 ">
+												<div class="soluong soluong_type_1 show">
+													<label class="sl section">Số lượng:</label>
+													<div
+														class="custom input_number_product custom-btn-number form-control">
+														<button class="btn_num num_1 button button_qty"
+															onClick="var result = document.getElementById('qtym'); var qtypro = result.value; if( !isNaN( qtypro ) &amp;&amp; qtypro &gt; 1 ) result.value--;return false;"
+															type="button">
 															<svg aria-hidden="true" focusable="false" data-prefix="fas"
-																data-icon="search" role="img"
-																xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
-																class="svg-inline--fa fa-search fa-w-16">
+																data-icon="caret-down" role="img"
+																xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
+																class="svg-inline--fa fa-caret-down fa-w-10">
 																<path fill="currentColor"
-																	d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+																	d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+																	class=""></path>
+															</svg>
+														</button>
+														<input type="text" id="qtym" name="quantity" value="1"
+															maxlength="3" class="form-control prd_quantity "
+															onkeypress="if ( isNaN(this.value + String.fromCharCode(event.keyCode) )) return false;"
+															onchange="if(this.value == 0)this.value=1;">
+														<button class="btn_num num_2 button button_qty"
+															onClick="var result = document.getElementById('qtym'); var qtypro = result.value; if( !isNaN( qtypro )) result.value++;return false;"
+															type="button">
+															<svg aria-hidden="true" focusable="false" data-prefix="fas"
+																data-icon="caret-up" role="img"
+																xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
+																class="svg-inline--fa fa-caret-up fa-w-10">
+																<path fill="currentColor"
+																	d="M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z"
 																	class=""></path>
 															</svg>
 														</button>
 													</div>
 												</div>
-												<ul>
+												<div class="button_actions clearfix">
 
+													<a type="submit" class="btn_buynow btn_base">
+														<span class="txt-main text_1">Mua ngay</span>
+													</a>
+													<a type="submit"
+														class="btn btn_base btn_add_cart btn-cart add_to_cart">
+														<span class="text_1">Thêm vào giỏ hàng</span>
+												</a>
 
-													<li class="filter-item filter-item--check-box filter-item--green ">
-														<span>
-															<label for="filter-doca">
-																<input type="checkbox" id="filter-doca"
-																	data-group="Hãng" data-field="vendor"
-																	data-text="Doca" value="(Doca)" data-operator="OR">
-																<i class="fa"></i>
-																Doca
-															</label>
-														</span>
-													</li>
-
-
-
-													<li class="filter-item filter-item--check-box filter-item--green ">
-														<span>
-															<label for="filter-fibs">
-																<input type="checkbox" id="filter-fibs"
-																	data-group="Hãng" data-field="vendor"
-																	data-text="FIBs" value="(FIBs)" data-operator="OR">
-																<i class="fa"></i>
-																FIBs
-															</label>
-														</span>
-													</li>
-
-
-
-													<li class="filter-item filter-item--check-box filter-item--green ">
-														<span>
-															<label for="filter-minino">
-																<input type="checkbox" id="filter-minino"
-																	data-group="Hãng" data-field="vendor"
-																	data-text="Minino" value="(Minino)"
-																	data-operator="OR">
-																<i class="fa"></i>
-																Minino
-															</label>
-														</span>
-													</li>
-
-
-
-													<li class="filter-item filter-item--check-box filter-item--green ">
-														<span>
-															<label for="filter-nutrience">
-																<input type="checkbox" id="filter-nutrience"
-																	data-group="Hãng" data-field="vendor"
-																	data-text="Nutrience" value="(Nutrience)"
-																	data-operator="OR">
-																<i class="fa"></i>
-																Nutrience
-															</label>
-														</span>
-													</li>
-
-
-
-													<li class="filter-item filter-item--check-box filter-item--green ">
-														<span>
-															<label for="filter-pedigree">
-																<input type="checkbox" id="filter-pedigree"
-																	data-group="Hãng" data-field="vendor"
-																	data-text="Pedigree" value="(Pedigree)"
-																	data-operator="OR">
-																<i class="fa"></i>
-																Pedigree
-															</label>
-														</span>
-													</li>
-
-
-
-													<li class="filter-item filter-item--check-box filter-item--green ">
-														<span>
-															<label for="filter-royal-canin">
-																<input type="checkbox" id="filter-royal-canin"
-																	data-group="Hãng" data-field="vendor"
-																	data-text="Royal Canin" value="(Royal Canin)"
-																	data-operator="OR">
-																<i class="fa"></i>
-																Royal Canin
-															</label>
-														</span>
-													</li>
-
-
-
-													<li class="filter-item filter-item--check-box filter-item--green ">
-														<span>
-															<label for="filter-smartheart">
-																<input type="checkbox" id="filter-smartheart"
-																	data-group="Hãng" data-field="vendor"
-																	data-text="Smartheart" value="(Smartheart)"
-																	data-operator="OR">
-																<i class="fa"></i>
-																Smartheart
-															</label>
-														</span>
-													</li>
-
-
-
-													<li class="filter-item filter-item--check-box filter-item--green ">
-														<span>
-															<label for="filter-tropiclean">
-																<input type="checkbox" id="filter-tropiclean"
-																	data-group="Hãng" data-field="vendor"
-																	data-text="Tropiclean" value="(Tropiclean)"
-																	data-operator="OR">
-																<i class="fa"></i>
-																Tropiclean
-															</label>
-														</span>
-													</li>
-
-
-
-													<li class="filter-item filter-item--check-box filter-item--green ">
-														<span>
-															<label for="filter-whiskat">
-																<input type="checkbox" id="filter-whiskat"
-																	data-group="Hãng" data-field="vendor"
-																	data-text="Whiskat" value="(Whiskat)"
-																	data-operator="OR">
-																<i class="fa"></i>
-																Whiskat
-															</label>
-														</span>
-													</li>
-
-
-
-													<li class="filter-item filter-item--check-box filter-item--green ">
-														<span>
-															<label for="filter-zenith">
-																<input type="checkbox" id="filter-zenith"
-																	data-group="Hãng" data-field="vendor"
-																	data-text="Zenith" value="(Zenith)"
-																	data-operator="OR">
-																<i class="fa"></i>
-																Zenith
-															</label>
-														</span>
-													</li>
-
-
-												</ul>
-											</div>
-										</aside>
-
-
-										<!-- End Lọc Thương hiệu -->
-										<!-- Lọc giá -->
-
-										<aside class="aside-item filter-sidebar filter-price f-left">
-											<div class="aside-title">
-												<h2 class="title-filter title-head margin-top-0">
-													<span>
-														Khoảng giá
-													</span>
-												</h2>
-											</div>
-
-
-											<link
-												href="//bizweb.dktcdn.net/100/432/370/themes/894869/assets/jquery-ui.min.css?1676276556806"
-												rel="stylesheet" type="text/css" media="all" />
-											<script
-												src="//bizweb.dktcdn.net/100/432/370/themes/894869/assets/jquery-ui-min.js?1676276556806"
-												type="text/javascript"></script>
-
-
-											<div class="aside-content filter-groupi filter-ui-slider">
-
-												<div id='start'><input value="0"></div>
-												<div id='stop'><input value="100.000.000₫"></div>
-												<div id='slider'></div>
-												<span class="price_val"></span>
-												<a id="old-value" href="javascript:;"></a>
-												<a id="filter-value" class="btn btn-primary" href="javascript:;"
-													onclick="_toggleFilterdqdt(this);"
-													data-value="(>-1 AND <100000001)">Lọc giá</a>
-
-											</div>
-
-
-										</aside>
-
-
-
-									</div>
-								</div>
-
-								<!-- <div class="aside-item aside-banner">
-									<a href="#" class="img_banner" title="Banner_collection">
-										<img class="lazyload"
-											src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
-											data-src="//bizweb.dktcdn.net/100/432/370/themes/894869/assets/banner_collection.png?1676276556806"
-											alt="Banner_collection" />
-									</a>
-								</div> -->
-
-							</div>
-						</aside>
-						<div class="main_container collection right-content col-xl-9 col-lg-9 col-md-12 col-sm-12">
-							<div class="category-products products">
-
-								<div class="section">
-									<div class="sortPagiBar clearfix">
-										<div class="sort-cate clearfix">
-											<div id="sort-by">
-												<label class="left hidden">Xếp theo</label>
-												<ul class="ul_col">
-													<li><span>Sắp xếp theo</span>
-														<ul class="content_ul">
-															<li><a href="javascript:;" onclick="sortby('default')">Mặc
-																	định</a></li>
-															<li><a href="javascript:;" onclick="sortby('alpha-asc')">A
-																	&rarr; Z</a></li>
-															<li><a href="javascript:;" onclick="sortby('alpha-desc')">Z
-																	&rarr; A</a></li>
-															<li><a href="javascript:;" onclick="sortby('price-asc')">Giá
-																	tăng dần</a></li>
-															<li><a href="javascript:;"
-																	onclick="sortby('price-desc')">Giá giảm dần</a></li>
-															<li><a href="javascript:;"
-																	onclick="sortby('created-desc')">Hàng mới nhất</a>
-															</li>
-															<li><a href="javascript:;"
-																	onclick="sortby('created-asc')">Hàng cũ nhất</a>
-															</li>
-														</ul>
-													</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-
-
-								
-
-								<section class="products-view products-view-grid collection_reponsive list_hover_pro">
-									<div class="wrap_tab_index not-dqtab e-tabs ajax-tab-1" data-section="ajax-tab-1">
-										<div class="wrap_tab">
-											<div class="tab-1 tab-content">
-												<div class="swiper_tab_product swiper-container swiper-carousel ajax-carousel">
-													<div class="swiper-wrapper">
-	
-	
-	
-														<div class="item swiper-slide">
-															<div class="item_product_main">
-																<form class="variants wishItem" >
-																	<div class="product-thumbnail">
-																		<a class="product_overlay"
-																			href="./cho-phoc-soc-mau-party.html"></a>
-																		<a class="image_thumb"
-																			href="./cho-phoc-soc-mau-party.html">
-																			<img class="lazyload" width="10" height="10"
-																				src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
-																				data-src="https://pethouse.com.vn/wp-content/uploads/2023/02/anh-cho-phoc-soc-99922922.jpg">
-																		</a>
-																		<style>
-																			.rectangle {
-																				position: absolute;
-																				top: 10px;
-																				/* Điều chỉnh vị trí của khung */
-																				left: 10px;
-																				/* Điều chỉnh vị trí của khung */
-																				background-color: white;
-																				border: 1px solid orange;
-																				color: orange;
-																				padding: 5px;
-																				/* Điều chỉnh kích thước của khung */
-																				font-size: 18px;
-																				z-index: 1;
-																				/* Đảm bảo khung nằm trên ảnh */
-																			}
-					
-																			.image_thumb img {
-																				display: block;
-																			}
-																		</style>
-																		<div class="rectangle">
-																			-10%
-																		</div>
-																		<div class="product-action">
-																			<div class="group_action">
-				
-																				<a title="Xem nhanh"
-																					href="./cho-phoc-soc-mau-party.html"
-																					data-handle="thuc-an-cho-meo-royal-canin-hairball-care"
-																					class="xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-																					<svg aria-hidden="true" focusable="false"
-																						data-prefix="far" data-icon="search-plus"
-																						role="img" xmlns="http://www.w3.org/2000/svg"
-																						viewBox="0 0 512 512"
-																						class="svg-inline--fa fa-search-plus fa-w-16">
-																						<path fill="currentColor"
-																							d="M312 196v24c0 6.6-5.4 12-12 12h-68v68c0 6.6-5.4 12-12 12h-24c-6.6 0-12-5.4-12-12v-68h-68c-6.6 0-12-5.4-12-12v-24c0-6.6 5.4-12 12-12h68v-68c0-6.6 5.4-12 12-12h24c6.6 0 12 5.4 12 12v68h68c6.6 0 12 5.4 12 12zm196.5 289.9l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L347.5 387.1c-2.3-2.3-3.5-5.3-3.5-8.5v-13.2c-36.5 31.5-84 50.6-136 50.6C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208c0 52-19.1 99.5-50.6 136h13.2c3.2 0 6.2 1.3 8.5 3.5l121.4 121.4c4.7 4.7 4.7 12.3 0 17zM368 208c0-88.4-71.6-160-160-160S48 119.6 48 208s71.6 160 160 160 160-71.6 160-160z"
-																							class=""></path>
-																					</svg>
-																					<span class="text">Xem nhanh</span>
-																				</a>
-				
-				
-																				<input type="hidden" name="variantId"
-																					value="48933960" />
-																				<a href="./cho-phoc-soc-mau-party.html"
-																					class="btn-buy btn-cart btn-left btn btn-views left-to add_to_cart active "
-																					title="Thêm vào giỏ">
-																					<svg xmlns="http://www.w3.org/2000/svg"
-																						version="1.1" x="0" y="0"
-																						viewBox="0 0 490.666 490.666"
-																						style="enable-background:new 0 0 512 512"
-																						xml:space="preserve" class="">
-																						<g>
-																							<path
-																								d="M394.667,373.333c-29.397,0-53.333,23.936-53.333,53.333S365.269,480,394.667,480S448,456.064,448,426.666    S424.064,373.333,394.667,373.333z M394.667,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32    c17.643,0,32,14.357,32,32C426.667,444.309,412.309,458.666,394.667,458.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M181.333,373.333c-29.397,0-53.333,23.936-53.333,53.333S151.936,480,181.333,480s53.333-23.936,53.333-53.333    S210.731,373.333,181.333,373.333z M181.333,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32s32,14.357,32,32    C213.333,444.309,198.976,458.666,181.333,458.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M437.333,330.666H191.125c-25.323,0-47.317-18.027-52.288-42.88L85.12,19.242c-1.003-4.992-5.376-8.576-10.453-8.576h-64    C4.779,10.666,0,15.445,0,21.333S4.779,32,10.667,32H65.92l51.989,259.989c6.955,34.773,37.76,60.011,73.216,60.011h246.208    c5.888,0,10.667-4.779,10.667-10.667C448,335.445,443.221,330.666,437.333,330.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M488,78.272c-2.027-2.283-4.928-3.605-8-3.605H96c-5.888,0-10.667,4.779-10.667,10.667S90.112,96,96,96h371.925    l-15.168,121.301c-2.005,15.979-15.659,28.032-31.765,28.032H128c-5.888,0-10.667,4.779-10.667,10.667    c0,5.888,4.779,10.667,10.667,10.667h292.992c26.837,0,49.6-20.075,52.928-46.72l16.661-133.291    C490.965,83.626,490.027,80.554,488,78.272z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																						</g><g>
-																							<path
-																								d="M394.667,373.333c-29.397,0-53.333,23.936-53.333,53.333S365.269,480,394.667,480S448,456.064,448,426.666    S424.064,373.333,394.667,373.333z M394.667,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32    c17.643,0,32,14.357,32,32C426.667,444.309,412.309,458.666,394.667,458.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M181.333,373.333c-29.397,0-53.333,23.936-53.333,53.333S151.936,480,181.333,480s53.333-23.936,53.333-53.333    S210.731,373.333,181.333,373.333z M181.333,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32s32,14.357,32,32    C213.333,444.309,198.976,458.666,181.333,458.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M437.333,330.666H191.125c-25.323,0-47.317-18.027-52.288-42.88L85.12,19.242c-1.003-4.992-5.376-8.576-10.453-8.576h-64    C4.779,10.666,0,15.445,0,21.333S4.779,32,10.667,32H65.92l51.989,259.989c6.955,34.773,37.76,60.011,73.216,60.011h246.208    c5.888,0,10.667-4.779,10.667-10.667C448,335.445,443.221,330.666,437.333,330.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M488,78.272c-2.027-2.283-4.928-3.605-8-3.605H96c-5.888,0-10.667,4.779-10.667,10.667S90.112,96,96,96h371.925    l-15.168,121.301c-2.005,15.979-15.659,28.032-31.765,28.032H128c-5.888,0-10.667,4.779-10.667,10.667    c0,5.888,4.779,10.667,10.667,10.667h292.992c26.837,0,49.6-20.075,52.928-46.72l16.661-133.291    C490.965,83.626,490.027,80.554,488,78.272z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																						</g>
-																					</svg>
-																					<span class="text">Mua ngay</span>
-																				</a>
-				
-																			</div>
-																		</div>
-																	</div>
-																	<div class="product-info">
-																		<h3 class="product-name"><a
-																				href="./cho-phoc-soc-mau-party.html">Chó Phốc Sóc màu party</a></h3>
-																		<div class="price-box">	
-																			<span class="price">19.000.000₫</span>			
-																			<span class="compare-price">21.100.000₫</span>		
-																		</div>
-																	</div>
-																</form>
-															</div>
-														</div>
-
-														<div class="item swiper-slide">
-															<div class="item_product_main">
-																<form class="variants wishItem" >
-																	<div class="product-thumbnail">
-																		<a class="product_overlay"
-																			href="./cho-phoc-soc-mau-merle.html"></a>
-																		<a class="image_thumb"
-																			href="./cho-phoc-soc-mau-merle.html">
-																			<img class="lazyload" width="10" height="10"
-																				src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
-																				data-src="https://petnow.com.vn/wp-content/uploads/2023/08/cho-phoc-soc-mau-xam-trang-2.png">
-																		</a>
-																		
-																		<div class="product-action">
-																			<div class="group_action">
-				
-																				<a title="Xem nhanh"
-																					data-handle="thuc-an-cho-meo-royal-canin-hairball-care"
-																					class="xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-																					<svg aria-hidden="true" focusable="false"
-																						data-prefix="far" data-icon="search-plus"
-																						role="img" xmlns="http://www.w3.org/2000/svg"
-																						viewBox="0 0 512 512"
-																						class="svg-inline--fa fa-search-plus fa-w-16">
-																						<path fill="currentColor"
-																							d="M312 196v24c0 6.6-5.4 12-12 12h-68v68c0 6.6-5.4 12-12 12h-24c-6.6 0-12-5.4-12-12v-68h-68c-6.6 0-12-5.4-12-12v-24c0-6.6 5.4-12 12-12h68v-68c0-6.6 5.4-12 12-12h24c6.6 0 12 5.4 12 12v68h68c6.6 0 12 5.4 12 12zm196.5 289.9l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L347.5 387.1c-2.3-2.3-3.5-5.3-3.5-8.5v-13.2c-36.5 31.5-84 50.6-136 50.6C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208c0 52-19.1 99.5-50.6 136h13.2c3.2 0 6.2 1.3 8.5 3.5l121.4 121.4c4.7 4.7 4.7 12.3 0 17zM368 208c0-88.4-71.6-160-160-160S48 119.6 48 208s71.6 160 160 160 160-71.6 160-160z"
-																							class=""></path>
-																					</svg>
-																					<span class="text">Xem nhanh</span>
-																				</a>
-																				<a class="btn-buy btn-cart btn-left btn btn-views left-to add_to_cart active "
-																					title="Thêm vào giỏ">
-																					<svg xmlns="http://www.w3.org/2000/svg"
-																						version="1.1" x="0" y="0"
-																						viewBox="0 0 490.666 490.666"
-																						style="enable-background:new 0 0 512 512"
-																						xml:space="preserve" class="">
-																						<g>
-																							<path
-																								d="M394.667,373.333c-29.397,0-53.333,23.936-53.333,53.333S365.269,480,394.667,480S448,456.064,448,426.666    S424.064,373.333,394.667,373.333z M394.667,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32    c17.643,0,32,14.357,32,32C426.667,444.309,412.309,458.666,394.667,458.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M181.333,373.333c-29.397,0-53.333,23.936-53.333,53.333S151.936,480,181.333,480s53.333-23.936,53.333-53.333    S210.731,373.333,181.333,373.333z M181.333,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32s32,14.357,32,32    C213.333,444.309,198.976,458.666,181.333,458.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M437.333,330.666H191.125c-25.323,0-47.317-18.027-52.288-42.88L85.12,19.242c-1.003-4.992-5.376-8.576-10.453-8.576h-64    C4.779,10.666,0,15.445,0,21.333S4.779,32,10.667,32H65.92l51.989,259.989c6.955,34.773,37.76,60.011,73.216,60.011h246.208    c5.888,0,10.667-4.779,10.667-10.667C448,335.445,443.221,330.666,437.333,330.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M488,78.272c-2.027-2.283-4.928-3.605-8-3.605H96c-5.888,0-10.667,4.779-10.667,10.667S90.112,96,96,96h371.925    l-15.168,121.301c-2.005,15.979-15.659,28.032-31.765,28.032H128c-5.888,0-10.667,4.779-10.667,10.667    c0,5.888,4.779,10.667,10.667,10.667h292.992c26.837,0,49.6-20.075,52.928-46.72l16.661-133.291    C490.965,83.626,490.027,80.554,488,78.272z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																						</g><g>
-																							<path
-																								d="M394.667,373.333c-29.397,0-53.333,23.936-53.333,53.333S365.269,480,394.667,480S448,456.064,448,426.666    S424.064,373.333,394.667,373.333z M394.667,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32    c17.643,0,32,14.357,32,32C426.667,444.309,412.309,458.666,394.667,458.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M181.333,373.333c-29.397,0-53.333,23.936-53.333,53.333S151.936,480,181.333,480s53.333-23.936,53.333-53.333    S210.731,373.333,181.333,373.333z M181.333,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32s32,14.357,32,32    C213.333,444.309,198.976,458.666,181.333,458.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M437.333,330.666H191.125c-25.323,0-47.317-18.027-52.288-42.88L85.12,19.242c-1.003-4.992-5.376-8.576-10.453-8.576h-64    C4.779,10.666,0,15.445,0,21.333S4.779,32,10.667,32H65.92l51.989,259.989c6.955,34.773,37.76,60.011,73.216,60.011h246.208    c5.888,0,10.667-4.779,10.667-10.667C448,335.445,443.221,330.666,437.333,330.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M488,78.272c-2.027-2.283-4.928-3.605-8-3.605H96c-5.888,0-10.667,4.779-10.667,10.667S90.112,96,96,96h371.925    l-15.168,121.301c-2.005,15.979-15.659,28.032-31.765,28.032H128c-5.888,0-10.667,4.779-10.667,10.667    c0,5.888,4.779,10.667,10.667,10.667h292.992c26.837,0,49.6-20.075,52.928-46.72l16.661-133.291    C490.965,83.626,490.027,80.554,488,78.272z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																						</g>
-																					</svg>
-																					<span class="text">Mua ngay</span>
-																				</a>
-				
-																			</div>
-																		</div>
-																	</div>
-																	<div class="product-info">
-																		<h3 class="product-name"><a
-																				href="./cho-phoc-soc-mau-merle.html">Chó Phốc Sóc màu merle</a></h3>
-																		<div class="price-box">	
-																			<span class="price">15.000.000₫</span>					
-																		</div>
-																	</div>
-																</form>
-															</div>
-														</div>
-
-														<div class="item swiper-slide">
-															<div class="item_product_main">
-																<form class="variants wishItem" >
-																	<div class="product-thumbnail">
-																		<a class="product_overlay"
-																			href="./cho-phoc-soc-mau-vang-cam.html"></a>
-																		<a class="image_thumb"
-																			href="./cho-phoc-soc-mau-vang-cam.html">
-																			<img class="lazyload" width="10" height="10"
-																				src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
-																				data-src="https://pethouse.com.vn/wp-content/uploads/2023/03/02c1b1ad8d3b5065092a-1337x1536.jpg">
-																		</a>
-																		
-																		<div class="product-action">
-																			<div class="group_action">
-				
-																				<a title="Xem nhanh"
-																					data-handle="thuc-an-cho-meo-royal-canin-hairball-care"
-																					class="xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-																					<svg aria-hidden="true" focusable="false"
-																						data-prefix="far" data-icon="search-plus"
-																						role="img" xmlns="http://www.w3.org/2000/svg"
-																						viewBox="0 0 512 512"
-																						class="svg-inline--fa fa-search-plus fa-w-16">
-																						<path fill="currentColor"
-																							d="M312 196v24c0 6.6-5.4 12-12 12h-68v68c0 6.6-5.4 12-12 12h-24c-6.6 0-12-5.4-12-12v-68h-68c-6.6 0-12-5.4-12-12v-24c0-6.6 5.4-12 12-12h68v-68c0-6.6 5.4-12 12-12h24c6.6 0 12 5.4 12 12v68h68c6.6 0 12 5.4 12 12zm196.5 289.9l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L347.5 387.1c-2.3-2.3-3.5-5.3-3.5-8.5v-13.2c-36.5 31.5-84 50.6-136 50.6C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208c0 52-19.1 99.5-50.6 136h13.2c3.2 0 6.2 1.3 8.5 3.5l121.4 121.4c4.7 4.7 4.7 12.3 0 17zM368 208c0-88.4-71.6-160-160-160S48 119.6 48 208s71.6 160 160 160 160-71.6 160-160z"
-																							class=""></path>
-																					</svg>
-																					<span class="text">Xem nhanh</span>
-																				</a>
-																				<a class="btn-buy btn-cart btn-left btn btn-views left-to add_to_cart active "
-																					title="Thêm vào giỏ">
-																					<svg xmlns="http://www.w3.org/2000/svg"
-																						version="1.1" x="0" y="0"
-																						viewBox="0 0 490.666 490.666"
-																						style="enable-background:new 0 0 512 512"
-																						xml:space="preserve" class="">
-																						<g>
-																							<path
-																								d="M394.667,373.333c-29.397,0-53.333,23.936-53.333,53.333S365.269,480,394.667,480S448,456.064,448,426.666    S424.064,373.333,394.667,373.333z M394.667,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32    c17.643,0,32,14.357,32,32C426.667,444.309,412.309,458.666,394.667,458.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M181.333,373.333c-29.397,0-53.333,23.936-53.333,53.333S151.936,480,181.333,480s53.333-23.936,53.333-53.333    S210.731,373.333,181.333,373.333z M181.333,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32s32,14.357,32,32    C213.333,444.309,198.976,458.666,181.333,458.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M437.333,330.666H191.125c-25.323,0-47.317-18.027-52.288-42.88L85.12,19.242c-1.003-4.992-5.376-8.576-10.453-8.576h-64    C4.779,10.666,0,15.445,0,21.333S4.779,32,10.667,32H65.92l51.989,259.989c6.955,34.773,37.76,60.011,73.216,60.011h246.208    c5.888,0,10.667-4.779,10.667-10.667C448,335.445,443.221,330.666,437.333,330.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M488,78.272c-2.027-2.283-4.928-3.605-8-3.605H96c-5.888,0-10.667,4.779-10.667,10.667S90.112,96,96,96h371.925    l-15.168,121.301c-2.005,15.979-15.659,28.032-31.765,28.032H128c-5.888,0-10.667,4.779-10.667,10.667    c0,5.888,4.779,10.667,10.667,10.667h292.992c26.837,0,49.6-20.075,52.928-46.72l16.661-133.291    C490.965,83.626,490.027,80.554,488,78.272z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																						</g><g>
-																							<path
-																								d="M394.667,373.333c-29.397,0-53.333,23.936-53.333,53.333S365.269,480,394.667,480S448,456.064,448,426.666    S424.064,373.333,394.667,373.333z M394.667,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32    c17.643,0,32,14.357,32,32C426.667,444.309,412.309,458.666,394.667,458.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M181.333,373.333c-29.397,0-53.333,23.936-53.333,53.333S151.936,480,181.333,480s53.333-23.936,53.333-53.333    S210.731,373.333,181.333,373.333z M181.333,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32s32,14.357,32,32    C213.333,444.309,198.976,458.666,181.333,458.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M437.333,330.666H191.125c-25.323,0-47.317-18.027-52.288-42.88L85.12,19.242c-1.003-4.992-5.376-8.576-10.453-8.576h-64    C4.779,10.666,0,15.445,0,21.333S4.779,32,10.667,32H65.92l51.989,259.989c6.955,34.773,37.76,60.011,73.216,60.011h246.208    c5.888,0,10.667-4.779,10.667-10.667C448,335.445,443.221,330.666,437.333,330.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M488,78.272c-2.027-2.283-4.928-3.605-8-3.605H96c-5.888,0-10.667,4.779-10.667,10.667S90.112,96,96,96h371.925    l-15.168,121.301c-2.005,15.979-15.659,28.032-31.765,28.032H128c-5.888,0-10.667,4.779-10.667,10.667    c0,5.888,4.779,10.667,10.667,10.667h292.992c26.837,0,49.6-20.075,52.928-46.72l16.661-133.291    C490.965,83.626,490.027,80.554,488,78.272z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																						</g>
-																					</svg>
-																					<span class="text">Mua ngay</span>
-																				</a>
-				
-																			</div>
-																		</div>
-																	</div>
-																	<div class="product-info">
-																		<h3 class="product-name"><a
-																				href="./cho-phoc-soc-mau-vang-cam.html">Chó Phốc Sóc màu vàng cam</a></h3>
-																		<div class="price-box">	
-																			<span class="price">12.000.000₫</span>					
-																		</div>
-																	</div>
-																</form>
-															</div>
-														</div>
-
-														<div class="item swiper-slide">
-															<div class="item_product_main">
-																<form class="variants wishItem" >
-																	<div class="product-thumbnail">
-																		<a class="product_overlay"
-																			href="./cho-phoc-soc-mau-trang.html"></a>
-																		<a class="image_thumb"
-																			href="./cho-phoc-soc-mau-trang.html">
-																			<img class="lazyload" width="10" height="10"
-																				src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
-																				data-src="https://pethouse.com.vn/wp-content/uploads/2023/09/1-pom-ma-1412-1510x1861.jpg">
-																		</a>
-																		
-																		<div class="product-action">
-																			<div class="group_action">
-				
-																				<a title="Xem nhanh"
-																					data-handle="thuc-an-cho-meo-royal-canin-hairball-care"
-																					class="xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-																					<svg aria-hidden="true" focusable="false"
-																						data-prefix="far" data-icon="search-plus"
-																						role="img" xmlns="http://www.w3.org/2000/svg"
-																						viewBox="0 0 512 512"
-																						class="svg-inline--fa fa-search-plus fa-w-16">
-																						<path fill="currentColor"
-																							d="M312 196v24c0 6.6-5.4 12-12 12h-68v68c0 6.6-5.4 12-12 12h-24c-6.6 0-12-5.4-12-12v-68h-68c-6.6 0-12-5.4-12-12v-24c0-6.6 5.4-12 12-12h68v-68c0-6.6 5.4-12 12-12h24c6.6 0 12 5.4 12 12v68h68c6.6 0 12 5.4 12 12zm196.5 289.9l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L347.5 387.1c-2.3-2.3-3.5-5.3-3.5-8.5v-13.2c-36.5 31.5-84 50.6-136 50.6C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208c0 52-19.1 99.5-50.6 136h13.2c3.2 0 6.2 1.3 8.5 3.5l121.4 121.4c4.7 4.7 4.7 12.3 0 17zM368 208c0-88.4-71.6-160-160-160S48 119.6 48 208s71.6 160 160 160 160-71.6 160-160z"
-																							class=""></path>
-																					</svg>
-																					<span class="text">Xem nhanh</span>
-																				</a>
-																				<a class="btn-buy btn-cart btn-left btn btn-views left-to add_to_cart active "
-																					title="Thêm vào giỏ">
-																					<svg xmlns="http://www.w3.org/2000/svg"
-																						version="1.1" x="0" y="0"
-																						viewBox="0 0 490.666 490.666"
-																						style="enable-background:new 0 0 512 512"
-																						xml:space="preserve" class="">
-																						<g>
-																							<path
-																								d="M394.667,373.333c-29.397,0-53.333,23.936-53.333,53.333S365.269,480,394.667,480S448,456.064,448,426.666    S424.064,373.333,394.667,373.333z M394.667,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32    c17.643,0,32,14.357,32,32C426.667,444.309,412.309,458.666,394.667,458.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M181.333,373.333c-29.397,0-53.333,23.936-53.333,53.333S151.936,480,181.333,480s53.333-23.936,53.333-53.333    S210.731,373.333,181.333,373.333z M181.333,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32s32,14.357,32,32    C213.333,444.309,198.976,458.666,181.333,458.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M437.333,330.666H191.125c-25.323,0-47.317-18.027-52.288-42.88L85.12,19.242c-1.003-4.992-5.376-8.576-10.453-8.576h-64    C4.779,10.666,0,15.445,0,21.333S4.779,32,10.667,32H65.92l51.989,259.989c6.955,34.773,37.76,60.011,73.216,60.011h246.208    c5.888,0,10.667-4.779,10.667-10.667C448,335.445,443.221,330.666,437.333,330.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M488,78.272c-2.027-2.283-4.928-3.605-8-3.605H96c-5.888,0-10.667,4.779-10.667,10.667S90.112,96,96,96h371.925    l-15.168,121.301c-2.005,15.979-15.659,28.032-31.765,28.032H128c-5.888,0-10.667,4.779-10.667,10.667    c0,5.888,4.779,10.667,10.667,10.667h292.992c26.837,0,49.6-20.075,52.928-46.72l16.661-133.291    C490.965,83.626,490.027,80.554,488,78.272z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																						</g><g>
-																							<path
-																								d="M394.667,373.333c-29.397,0-53.333,23.936-53.333,53.333S365.269,480,394.667,480S448,456.064,448,426.666    S424.064,373.333,394.667,373.333z M394.667,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32    c17.643,0,32,14.357,32,32C426.667,444.309,412.309,458.666,394.667,458.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M181.333,373.333c-29.397,0-53.333,23.936-53.333,53.333S151.936,480,181.333,480s53.333-23.936,53.333-53.333    S210.731,373.333,181.333,373.333z M181.333,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32s32,14.357,32,32    C213.333,444.309,198.976,458.666,181.333,458.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M437.333,330.666H191.125c-25.323,0-47.317-18.027-52.288-42.88L85.12,19.242c-1.003-4.992-5.376-8.576-10.453-8.576h-64    C4.779,10.666,0,15.445,0,21.333S4.779,32,10.667,32H65.92l51.989,259.989c6.955,34.773,37.76,60.011,73.216,60.011h246.208    c5.888,0,10.667-4.779,10.667-10.667C448,335.445,443.221,330.666,437.333,330.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M488,78.272c-2.027-2.283-4.928-3.605-8-3.605H96c-5.888,0-10.667,4.779-10.667,10.667S90.112,96,96,96h371.925    l-15.168,121.301c-2.005,15.979-15.659,28.032-31.765,28.032H128c-5.888,0-10.667,4.779-10.667,10.667    c0,5.888,4.779,10.667,10.667,10.667h292.992c26.837,0,49.6-20.075,52.928-46.72l16.661-133.291    C490.965,83.626,490.027,80.554,488,78.272z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																						</g>
-																					</svg>
-																					<span class="text">Mua ngay</span>
-																				</a>
-				
-																			</div>
-																		</div>
-																	</div>
-																	<div class="product-info">
-																		<h3 class="product-name"><a
-																				href="./cho-phoc-soc-mau-trang.html">Chó Phốc Sóc màu trắng</a></h3>
-																		<div class="price-box">	
-																			<span class="price">13.000.000₫</span>				
-																		</div>
-																	</div>
-																</form>
-															</div>
-														</div>
-
-														<div class="item swiper-slide">
-															<div class="item_product_main">
-																<form class="variants wishItem" >
-																	<div class="product-thumbnail">
-																		<a class="product_overlay"
-																			href="./cho-phoc-soc-mau-den.html"></a>
-																		<a class="image_thumb"
-																			href="./cho-phoc-soc-mau-den.html">
-																			<img class="lazyload" width="10" height="10"
-																				src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
-																				data-src="https://pethouse.com.vn/wp-content/uploads/2024/07/z5590779691005_231dc118a07e07f425a9b6a26fbd2ef2-1024x1536.jpg">
-																		</a>
-																		
-																		<div class="product-action">
-																			<div class="group_action">
-				
-																				<a title="Xem nhanh"
-																					data-handle="thuc-an-cho-meo-royal-canin-hairball-care"
-																					class="xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-																					<svg aria-hidden="true" focusable="false"
-																						data-prefix="far" data-icon="search-plus"
-																						role="img" xmlns="http://www.w3.org/2000/svg"
-																						viewBox="0 0 512 512"
-																						class="svg-inline--fa fa-search-plus fa-w-16">
-																						<path fill="currentColor"
-																							d="M312 196v24c0 6.6-5.4 12-12 12h-68v68c0 6.6-5.4 12-12 12h-24c-6.6 0-12-5.4-12-12v-68h-68c-6.6 0-12-5.4-12-12v-24c0-6.6 5.4-12 12-12h68v-68c0-6.6 5.4-12 12-12h24c6.6 0 12 5.4 12 12v68h68c6.6 0 12 5.4 12 12zm196.5 289.9l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L347.5 387.1c-2.3-2.3-3.5-5.3-3.5-8.5v-13.2c-36.5 31.5-84 50.6-136 50.6C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208c0 52-19.1 99.5-50.6 136h13.2c3.2 0 6.2 1.3 8.5 3.5l121.4 121.4c4.7 4.7 4.7 12.3 0 17zM368 208c0-88.4-71.6-160-160-160S48 119.6 48 208s71.6 160 160 160 160-71.6 160-160z"
-																							class=""></path>
-																					</svg>
-																					<span class="text">Xem nhanh</span>
-																				</a>
-																				<a class="btn-buy btn-cart btn-left btn btn-views left-to add_to_cart active "
-																					title="Thêm vào giỏ">
-																					<svg xmlns="http://www.w3.org/2000/svg"
-																						version="1.1" x="0" y="0"
-																						viewBox="0 0 490.666 490.666"
-																						style="enable-background:new 0 0 512 512"
-																						xml:space="preserve" class="">
-																						<g>
-																							<path
-																								d="M394.667,373.333c-29.397,0-53.333,23.936-53.333,53.333S365.269,480,394.667,480S448,456.064,448,426.666    S424.064,373.333,394.667,373.333z M394.667,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32    c17.643,0,32,14.357,32,32C426.667,444.309,412.309,458.666,394.667,458.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M181.333,373.333c-29.397,0-53.333,23.936-53.333,53.333S151.936,480,181.333,480s53.333-23.936,53.333-53.333    S210.731,373.333,181.333,373.333z M181.333,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32s32,14.357,32,32    C213.333,444.309,198.976,458.666,181.333,458.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M437.333,330.666H191.125c-25.323,0-47.317-18.027-52.288-42.88L85.12,19.242c-1.003-4.992-5.376-8.576-10.453-8.576h-64    C4.779,10.666,0,15.445,0,21.333S4.779,32,10.667,32H65.92l51.989,259.989c6.955,34.773,37.76,60.011,73.216,60.011h246.208    c5.888,0,10.667-4.779,10.667-10.667C448,335.445,443.221,330.666,437.333,330.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M488,78.272c-2.027-2.283-4.928-3.605-8-3.605H96c-5.888,0-10.667,4.779-10.667,10.667S90.112,96,96,96h371.925    l-15.168,121.301c-2.005,15.979-15.659,28.032-31.765,28.032H128c-5.888,0-10.667,4.779-10.667,10.667    c0,5.888,4.779,10.667,10.667,10.667h292.992c26.837,0,49.6-20.075,52.928-46.72l16.661-133.291    C490.965,83.626,490.027,80.554,488,78.272z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																						</g><g>
-																							<path
-																								d="M394.667,373.333c-29.397,0-53.333,23.936-53.333,53.333S365.269,480,394.667,480S448,456.064,448,426.666    S424.064,373.333,394.667,373.333z M394.667,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32    c17.643,0,32,14.357,32,32C426.667,444.309,412.309,458.666,394.667,458.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M181.333,373.333c-29.397,0-53.333,23.936-53.333,53.333S151.936,480,181.333,480s53.333-23.936,53.333-53.333    S210.731,373.333,181.333,373.333z M181.333,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32s32,14.357,32,32    C213.333,444.309,198.976,458.666,181.333,458.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M437.333,330.666H191.125c-25.323,0-47.317-18.027-52.288-42.88L85.12,19.242c-1.003-4.992-5.376-8.576-10.453-8.576h-64    C4.779,10.666,0,15.445,0,21.333S4.779,32,10.667,32H65.92l51.989,259.989c6.955,34.773,37.76,60.011,73.216,60.011h246.208    c5.888,0,10.667-4.779,10.667-10.667C448,335.445,443.221,330.666,437.333,330.666z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																							<path
-																								d="M488,78.272c-2.027-2.283-4.928-3.605-8-3.605H96c-5.888,0-10.667,4.779-10.667,10.667S90.112,96,96,96h371.925    l-15.168,121.301c-2.005,15.979-15.659,28.032-31.765,28.032H128c-5.888,0-10.667,4.779-10.667,10.667    c0,5.888,4.779,10.667,10.667,10.667h292.992c26.837,0,49.6-20.075,52.928-46.72l16.661-133.291    C490.965,83.626,490.027,80.554,488,78.272z"
-																								fill="#ffffff" data-original="#000000"
-																								style="" class=""></path>
-																						</g>
-																					</svg>
-																					<span class="text">Mua ngay</span>
-																				</a>
-				
-																			</div>
-																		</div>
-																	</div>
-																	<div class="product-info">
-																		<h3 class="product-name"><a
-																				href="./cho-phoc-soc-mau-den.html">Chó Phốc Sóc màu đen</a></h3>
-																		<div class="price-box">	
-																			<span class="price">10.000.000₫</span>					
-																		</div>
-																	</div>
-																</form>
-															</div>
-														</div>
-
-	
-														<!-- add sp -->
-													</div>
 												</div>
-												
-											</div>
-										</div>
-									</div>
 
-
-
-									<!-- <div class="row">
-										<div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 product-col">
-											<div class="item_product_main margin-bottom-40">
-												<form  class="variants wishItem"
-													data-id="product-actions-22476118" enctype="multipart/form-data">
-													<div class="product-thumbnail">
-														<a class="product_overlay"
-															href="./cho-phoc-soc-mau-party.html"
-															></a>
-														<a class="image_thumb"
-															href="./cho-phoc-soc-mau-party.html"
-															>
-															<img class="lazyload" width="10" height="10"
-																src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
-																data-src="https://pethouse.com.vn/wp-content/uploads/2023/02/anh-cho-phoc-soc-99922922.jpg"
-																>
-														</a>
-														<style>
-															.rectangle {
-																position: absolute;
-																top: 10px;
-																/* Điều chỉnh vị trí của khung */
-																left: 10px;
-																/* Điều chỉnh vị trí của khung */
-																background-color: white;
-																border: 2px solid orange;
-																color: orange;
-																padding: 10px;
-																/* Điều chỉnh kích thước của khung */
-																font-size: 20px;
-																z-index: 1;
-																/* Đảm bảo khung nằm trên ảnh */
-															}
-	
-															.image_thumb img {
-																display: block;
-															}
-														</style>
-														<div class="rectangle">
-															-10%
-														</div>
-														<div class="product-action">
-															<div class="group_action">
-
-																<a title="Xem nhanh"
-																	href="./cho-phoc-soc-mau-party.html"
-																	data-handle="sua-bot-cho-meo-110g-dr-kyan-precaten"
-																	class="xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-																	<svg aria-hidden="true" focusable="false"
-																		data-prefix="far" data-icon="search-plus"
-																		role="img" xmlns="http://www.w3.org/2000/svg"
-																		viewBox="0 0 512 512"
-																		class="svg-inline--fa fa-search-plus fa-w-16">
-																		<path fill="currentColor"
-																			d="M312 196v24c0 6.6-5.4 12-12 12h-68v68c0 6.6-5.4 12-12 12h-24c-6.6 0-12-5.4-12-12v-68h-68c-6.6 0-12-5.4-12-12v-24c0-6.6 5.4-12 12-12h68v-68c0-6.6 5.4-12 12-12h24c6.6 0 12 5.4 12 12v68h68c6.6 0 12 5.4 12 12zm196.5 289.9l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L347.5 387.1c-2.3-2.3-3.5-5.3-3.5-8.5v-13.2c-36.5 31.5-84 50.6-136 50.6C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208c0 52-19.1 99.5-50.6 136h13.2c3.2 0 6.2 1.3 8.5 3.5l121.4 121.4c4.7 4.7 4.7 12.3 0 17zM368 208c0-88.4-71.6-160-160-160S48 119.6 48 208s71.6 160 160 160 160-71.6 160-160z"
-																			class=""></path>
-																	</svg>
-																	<span class="text">Xem nhanh</span>
-																</a>
-																<a href="./cho-phoc-soc-mau-party.html"
-																	class="btn-buy btn-cart btn-left btn btn-views left-to add_to_cart active "
-																	title="Thêm vào giỏ">
-																	<svg xmlns="http://www.w3.org/2000/svg"
-																		version="1.1" x="0" y="0"
-																		viewBox="0 0 490.666 490.666"
-																		style="enable-background:new 0 0 512 512"
-																		xml:space="preserve" class="">
-																	</svg>
-																	<span class="text">Mua ngay</span>
-																</a>
-															</div>
-														</div>
-													</div>
-													<div class="product-info">
-														<h3 class="product-name"><a
-																href="./cho-phoc-soc-mau-party.html">Chó Phốc Sóc màu party</a></h3>
-														<div class="price-box">
-															<span class="price">19.000.000₫</span>
-															<span class="compare-price">21.100.000₫</span>
-														</div>
-
-													</div>
-												</form>
 											</div>
 										</div>
 
-										<div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 product-col">
-											<div class="item_product_main margin-bottom-40">
-												<form  class="variants wishItem"
-													data-id="product-actions-22476118" enctype="multipart/form-data">
-													<div class="product-thumbnail">
-														<a class="product_overlay"
-															href="./cho-phoc-soc-mau-merle.html"
-															></a>
-														<a class="image_thumb"
-															href="./cho-phoc-soc-mau-merle.html"
-															>
-															<img class="lazyload" width="10" height="10"
-																src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
-																data-src="https://petnow.com.vn/wp-content/uploads/2023/08/cho-phoc-soc-mau-xam-trang-2.png"
-																>
-														</a>
-														<div class="product-action">
-															<div class="group_action">
 
-																<a title="Xem nhanh"
-																	href="./cho-phoc-soc-mau-merle.html"
-																	data-handle="sua-bot-cho-meo-110g-dr-kyan-precaten"
-																	class="xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-																	<svg aria-hidden="true" focusable="false"
-																		data-prefix="far" data-icon="search-plus"
-																		role="img" xmlns="http://www.w3.org/2000/svg"
-																		viewBox="0 0 512 512"
-																		class="svg-inline--fa fa-search-plus fa-w-16">
-																		<path fill="currentColor"
-																			d="M312 196v24c0 6.6-5.4 12-12 12h-68v68c0 6.6-5.4 12-12 12h-24c-6.6 0-12-5.4-12-12v-68h-68c-6.6 0-12-5.4-12-12v-24c0-6.6 5.4-12 12-12h68v-68c0-6.6 5.4-12 12-12h24c6.6 0 12 5.4 12 12v68h68c6.6 0 12 5.4 12 12zm196.5 289.9l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L347.5 387.1c-2.3-2.3-3.5-5.3-3.5-8.5v-13.2c-36.5 31.5-84 50.6-136 50.6C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208c0 52-19.1 99.5-50.6 136h13.2c3.2 0 6.2 1.3 8.5 3.5l121.4 121.4c4.7 4.7 4.7 12.3 0 17zM368 208c0-88.4-71.6-160-160-160S48 119.6 48 208s71.6 160 160 160 160-71.6 160-160z"
-																			class=""></path>
-																	</svg>
-																	<span class="text">Xem nhanh</span>
-																</a>
 
-																<a href="./cho-phoc-soc-mau-merle.html"
-																	class="btn-buy btn-cart btn-left btn btn-views left-to add_to_cart active "
-																	title="Thêm vào giỏ">
-																	<svg xmlns="http://www.w3.org/2000/svg"
-																		version="1.1" x="0" y="0"
-																		viewBox="0 0 490.666 490.666"
-																		style="enable-background:new 0 0 512 512"
-																		xml:space="preserve" class="">
-																	</svg>
-																	<span class="text">Mua ngay</span>
-																</a>
 
-															</div>
-														</div>
-													</div>
-													<div class="product-info">
-														<h3 class="product-name"><a
-																href="./cho-phoc-soc-mau-merle.html">Chó Phốc Sóc màu merly</a></h3>
-														<div class="price-box">
-															<span class="price">15.000.000₫</span>
-														</div>
-
-													</div>
-												</form>
+										<!-- <div class="service_item clearfix">
+											<div class="service_image">
+												<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
+													data-src="//bizweb.dktcdn.net/100/432/370/themes/894869/assets/service_product_1.png?1676276556806"
+													alt="Vận chuyển toàn quốc: " class="lazyload">
+											</div>
+											<div class="content_service">
+												<span class="service-title">
+													Vận chuyển toàn quốc:
+												</span>
+												<span class="des_service">
+													Miễn phí vận chuyển trong bán kính 15km
+												</span>
 											</div>
 										</div>
 
-										<div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 product-col">
-											<div class="item_product_main margin-bottom-40">
-												<form  class="variants wishItem"
-													data-id="product-actions-22476118" enctype="multipart/form-data">
-													<div class="product-thumbnail">
-														<a class="product_overlay"
-															href="./cho-phoc-soc-mau-vang-cam.html"
-															></a>
-														<a class="image_thumb"
-															href="./cho-phoc-soc-mau-vang-cam.html"
-															>
-															<img class="lazyload" width="10" height="10"
-																src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
-																data-src="https://pethouse.com.vn/wp-content/uploads/2023/03/02c1b1ad8d3b5065092a-1337x1536.jpg"
-																>
-														</a>
-														<div class="product-action">
-															<div class="group_action">
 
-																<a title="Xem nhanh"
-																	href="./cho-phoc-soc-mau-vang-cam.html"
-																	data-handle="sua-bot-cho-meo-110g-dr-kyan-precaten"
-																	class="xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-																	<svg aria-hidden="true" focusable="false"
-																		data-prefix="far" data-icon="search-plus"
-																		role="img" xmlns="http://www.w3.org/2000/svg"
-																		viewBox="0 0 512 512"
-																		class="svg-inline--fa fa-search-plus fa-w-16">
-																		<path fill="currentColor"
-																			d="M312 196v24c0 6.6-5.4 12-12 12h-68v68c0 6.6-5.4 12-12 12h-24c-6.6 0-12-5.4-12-12v-68h-68c-6.6 0-12-5.4-12-12v-24c0-6.6 5.4-12 12-12h68v-68c0-6.6 5.4-12 12-12h24c6.6 0 12 5.4 12 12v68h68c6.6 0 12 5.4 12 12zm196.5 289.9l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L347.5 387.1c-2.3-2.3-3.5-5.3-3.5-8.5v-13.2c-36.5 31.5-84 50.6-136 50.6C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208c0 52-19.1 99.5-50.6 136h13.2c3.2 0 6.2 1.3 8.5 3.5l121.4 121.4c4.7 4.7 4.7 12.3 0 17zM368 208c0-88.4-71.6-160-160-160S48 119.6 48 208s71.6 160 160 160 160-71.6 160-160z"
-																			class=""></path>
-																	</svg>
-																	<span class="text">Xem nhanh</span>
-																</a>
 
-																<a href="./cho-phoc-soc-mau-vang-cam.html"
-																	class="btn-buy btn-cart btn-left btn btn-views left-to add_to_cart active "
-																	title="Thêm vào giỏ">
-																	<svg xmlns="http://www.w3.org/2000/svg"
-																		version="1.1" x="0" y="0"
-																		viewBox="0 0 490.666 490.666"
-																		style="enable-background:new 0 0 512 512"
-																		xml:space="preserve" class="">
-																	</svg>
-																	<span class="text">Mua ngay</span>
-																</a>
 
-															</div>
-														</div>
-													</div>
-													<div class="product-info">
-														<h3 class="product-name"><a
-																href="./cho-phoc-soc-mau-vang-cam.html">Chó Phốc Sóc màu vàng cam</a></h3>
-														<div class="price-box">
-															<span class="price">12.000.000₫</span>
-														</div>
-
-													</div>
-												</form>
+										<div class="service_item clearfix">
+											<div class="service_image">
+												<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
+													data-src="//bizweb.dktcdn.net/100/432/370/themes/894869/assets/service_product_2.png?1676276556806"
+													alt="Hỗ trợ đổi trả: " class="lazyload">
 											</div>
-										</div>
-
-										<div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 product-col">
-											<div class="item_product_main margin-bottom-40">
-												<form  class="variants wishItem"
-													data-id="product-actions-22476118" enctype="multipart/form-data">
-													<div class="product-thumbnail">
-														<a class="product_overlay"
-															href="./cho-phoc-soc-mau-trang.html"
-															></a>
-														<a class="image_thumb"
-															href="./cho-phoc-soc-mau-trang.html"
-															>
-															<img class="lazyload" width="10" height="10"
-																src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
-																data-src="https://pethouse.com.vn/wp-content/uploads/2023/09/1-pom-ma-1412-1510x1861.jpg"
-																>
-														</a>
-														<div class="product-action">
-															<div class="group_action">
-
-																<a title="Xem nhanh"
-																	href="./cho-phoc-soc-mau-trang.html"
-																	data-handle="sua-bot-cho-meo-110g-dr-kyan-precaten"
-																	class="xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
-																	<svg aria-hidden="true" focusable="false"
-																		data-prefix="far" data-icon="search-plus"
-																		role="img" xmlns="http://www.w3.org/2000/svg"
-																		viewBox="0 0 512 512"
-																		class="svg-inline--fa fa-search-plus fa-w-16">
-																		<path fill="currentColor"
-																			d="M312 196v24c0 6.6-5.4 12-12 12h-68v68c0 6.6-5.4 12-12 12h-24c-6.6 0-12-5.4-12-12v-68h-68c-6.6 0-12-5.4-12-12v-24c0-6.6 5.4-12 12-12h68v-68c0-6.6 5.4-12 12-12h24c6.6 0 12 5.4 12 12v68h68c6.6 0 12 5.4 12 12zm196.5 289.9l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L347.5 387.1c-2.3-2.3-3.5-5.3-3.5-8.5v-13.2c-36.5 31.5-84 50.6-136 50.6C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208c0 52-19.1 99.5-50.6 136h13.2c3.2 0 6.2 1.3 8.5 3.5l121.4 121.4c4.7 4.7 4.7 12.3 0 17zM368 208c0-88.4-71.6-160-160-160S48 119.6 48 208s71.6 160 160 160 160-71.6 160-160z"
-																			class=""></path>
-																	</svg>
-																	<span class="text">Xem nhanh</span>
-																</a>
-
-																<a href="./cho-phoc-soc-mau-trang.html"
-																	class="btn-buy btn-cart btn-left btn btn-views left-to add_to_cart active "
-																	title="Thêm vào giỏ">
-																	<svg xmlns="http://www.w3.org/2000/svg"
-																		version="1.1" x="0" y="0"
-																		viewBox="0 0 490.666 490.666"
-																		style="enable-background:new 0 0 512 512"
-																		xml:space="preserve" class="">
-																	</svg>
-																	<span class="text">Mua ngay</span>
-																</a>
-
-															</div>
-														</div>
-													</div>
-													<div class="product-info">
-														<h3 class="product-name"><a
-																href="./cho-phoc-soc-mau-trang.html">Chó Phốc Sóc màu trắng</a></h3>
-														<div class="price-box">
-															<span class="price">13.000.000₫</span>
-														</div>
-
-													</div>
-												</form>
+											<div class="content_service">
+												<span class="service-title">
+													Hỗ trợ đổi trả:
+												</span>
+												<span class="des_service">
+													Trong vòng 15 ngày kể từ khi mua hàng
+												</span>
 											</div>
-										</div>
-
-									</div> -->
-
-									<br><br><br>
-									<div class="section pagenav">
-
-										<nav class="clearfix relative nav_pagi w_100">
-											<ul class="pagination clearfix">
-
-												<li class="disabled page-item"><a class="page-link" href="#"><i
-													class="icon icon-left" aria-hidden="true"></i></a></li>
-
-												<li class="active disabled page-item "><a class="page-link"
-													href="../cho-phoc-soc/">1</a></li>
-
-												<li class="page-item"><a class="page-link" onclick="doSearch(2)"
-													href="../cho-corgi">2</a></li>
-
-												
-												<li class="page-item"><a class="page-link" onclick="doSearch(2)"
-													href="../cho-lap-xuong">3</a></li>
-													
-												<li class="page-item"><a class="page-link" onclick="doSearch(2)"
-													href="../cho-shiba">4</a></li>
-
-												<li class="page-item"><a class="page-link" onclick="doSearch(2)"
-													href="../cho-poodle">5</a></li>
-
-
-												<li class="page-item hidden-xs"><a class="page-link"
-														 href="../cho-corgi/"><i
-															class="icon icon-right" aria-hidden="true"></i>
-													</a></li>
-
-
-											</ul>
-										</nav>
-										<script>
-
-											var cuPage = 1
-
-										</script>
+										</div> -->
 
 									</div>
-								</section>
-
-
-							</div>
-
-							<div id="open-filters" class="open-filters d-lg-none d-xl-none">
-								<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="filter"
-									role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
-									class="svg-inline--fa fa-filter fa-w-16">
-									<path fill="currentColor"
-										d="M487.976 0H24.028C2.71 0-8.047 25.866 7.058 40.971L192 225.941V432c0 7.831 3.821 15.17 10.237 19.662l80 55.98C298.02 518.69 320 507.493 320 487.98V225.941l184.947-184.97C520.021 25.896 509.338 0 487.976 0z">
-									</path>
-								</svg>
-								<span>Lọc</span>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-
-			<script>
-				var colName = "Tất cả sản phẩm";
-
-				var colId = 0;
 
 
-				var selectedViewData = "data";
-			</script>
-		</div>
+			</form>
+
+			<section class="section sec_tab ">
+				<div class="container">
+					<div class="row">
+						<div class="tab_h col-xs-12 col-lg-12 col-sm-12 col-md-12">
+							<div class="section bg_white">
+
+								<!-- Nav tabs -->
+								<div class="product-tab e-tabs not-dqtab">
+									<ul class="tabs tabs-title clearfix">
+
+										<li class="tab-link" data-tab="tab-1">
+											<h3><span>Mô tả sản phẩm</span></h3>
+										</li>
+
+
+										<li class="tab-link" data-tab="tab-2">
+											<h3><span>Đánh giá</span></h3>
+										</li>
+
+
+
+									</ul>
+									<div class="tab-float">
+
+										<div id="tab-1" class="tab-content content_extab">
+											<div class="rte product_getcontent">
+
+												<p>- Chó Phốc sóc là giống chó đáng yêu, hiền lành và rất thông minh nên giống chó này luôn luôn được nhiều người săn đón.<br>- Có hình dáng đặc trưng với cơ thể nhỏ gọn, chân ngắn và đầu to. Chúng có lớp lông dày và màu sắc đa dạng, từ màu vàng, đỏ, đen đến trắng. Đặc điểm nổi bật nhất của Corgi là đôi tai lớn và vẻ mặt biểu cảm đáng yêu.
+													Corgi được biết đến là những chú chó thông minh, nhanh nhẹn và dễ huấn luyện. <br>- Chúng rất thân thiện, thích hợp để nuôi trong gia đình và làm bạn đồng hành. Corgi thường rất gắn bó với chủ nhân và thích tham gia vào các hoạt động gia đình.</p>
+
+											</div>
+										</div>
+
+
+										<div id="tab-2" class="tab-content content_extab">
+
+											<div class="accordion-item">
+												
+												<div class="accordion-inner">
+													<div id="reviews" class="woocommerce-Reviews row">
+										<div id="comments" class="col large-12">
+											
+									
+												<div id="review_form_wrapper" class="large-12 col">
+												<div id="review_form" class="col-inner">
+													<div class="review-form-inner has-border">
+														<div id="respond" class="comment-respond">
+											<h3 id="reply-title" class="comment-reply-title">Hãy là người đầu tiên nhận xét<small><a rel="nofollow" id="cancel-comment-reply-link" href="/san-pham/cho-corgi-mau-tricolor-ma-cg1644/#respond" style="display:none;">Hủy</a></small></h3><form id="commentform" class="comment-form" novalidate><div class="comment-form-rating"><label for="rating">Đánh giá của bạn&nbsp;<span class="required">*</span></label><select name="rating" id="rating" required>
+															<option value="">Xếp hạng&hellip;</option>
+															<option value="5">Rất tốt</option>
+															<option value="4">Tốt</option>
+															<option value="3">Trung bình</option>
+															<option value="2">Không tệ</option>
+															<option value="1">Rất tệ</option>
+														</select></div><p class="comment-form-comment"><label for="comment">Nhận xét của bạn&nbsp;<span class="required">*</span></label><textarea id="comment" name="comment" cols="45" rows="8" required></textarea></p><p class="comment-form-author"><label for="author">Tên&nbsp;<span class="required">*</span></label><input id="author" name="author" type="text" value="" size="30" required /></p>
+									<p class="comment-form-email"><label for="email">Email&nbsp;<span class="required">*</span></label><input id="email" name="email" type="email" value="" size="30" required /></p>
+									<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Lưu tên của tôi, email, và trang web trong trình duyệt này cho lần bình luận kế tiếp của tôi.</label></p>
+									<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Gửi đi" /> <input type='hidden' name='comment_post_ID' value='14875' id='comment_post_ID' />
+									<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+									</p></form>	</div><!-- #respond -->
+														</div>
+												</div>
+											</div>
+									
+										
+									</div>
+												</div>
+											</div>
+													
+
+
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="section_prd_feature" id="sidebarproduct">
+								<div class="title_module section">
+									<h2 class="bf_flower">
+										<a href="/phu-kien-cho-thu-cung" title="Sản phẩm liên quan">Sản phẩm liên
+											quan</a>
+									</h2>
+								</div>
+
+								<div class="swiper-container swiper_related">
+									<div class=" section products product_related swiper-wrapper">
+
+
+										<div class="item swiper-slide">
+											<div class="item_product_main">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+												<form action="/cart/add" method="post" class="variants wishItem"
+													data-id="product-actions-22476118" enctype="multipart/form-data">
+													<div class="product-thumbnail">
+														<a class="product_overlay"
+															href="/sua-bot-cho-meo-110g-dr-kyan-precaten"
+															title="Sữa bột cho mèo 110g Dr.Kyan Precaten"></a>
+														<a class="image_thumb"
+															href="/sua-bot-cho-meo-110g-dr-kyan-precaten"
+															title="Sữa bột cho mèo 110g Dr.Kyan Precaten">
+															<img class="lazyload" width="10" height="10"
+																src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
+																data-src="//bizweb.dktcdn.net/thumb/large/100/432/370/products/sua-bot-cho-meo-dr-kyan-precaten-anh.jpg?v=1626752115833"
+																alt="Sữa bột cho mèo 110g Dr.Kyan Precaten">
+														</a>
+
+														<div class="product-action">
+															<div class="group_action">
+
+																<a title="Xem nhanh"
+																	href="/sua-bot-cho-meo-110g-dr-kyan-precaten"
+																	data-handle="sua-bot-cho-meo-110g-dr-kyan-precaten"
+																	class="xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+																	<svg aria-hidden="true" focusable="false"
+																		data-prefix="far" data-icon="search-plus"
+																		role="img" xmlns="http://www.w3.org/2000/svg"
+																		viewBox="0 0 512 512"
+																		class="svg-inline--fa fa-search-plus fa-w-16">
+																		<path fill="currentColor"
+																			d="M312 196v24c0 6.6-5.4 12-12 12h-68v68c0 6.6-5.4 12-12 12h-24c-6.6 0-12-5.4-12-12v-68h-68c-6.6 0-12-5.4-12-12v-24c0-6.6 5.4-12 12-12h68v-68c0-6.6 5.4-12 12-12h24c6.6 0 12 5.4 12 12v68h68c6.6 0 12 5.4 12 12zm196.5 289.9l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L347.5 387.1c-2.3-2.3-3.5-5.3-3.5-8.5v-13.2c-36.5 31.5-84 50.6-136 50.6C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208c0 52-19.1 99.5-50.6 136h13.2c3.2 0 6.2 1.3 8.5 3.5l121.4 121.4c4.7 4.7 4.7 12.3 0 17zM368 208c0-88.4-71.6-160-160-160S48 119.6 48 208s71.6 160 160 160 160-71.6 160-160z"
+																			class=""></path>
+																	</svg>
+																	<span class="text">Xem nhanh</span>
+																</a>
+
+
+																<input type="hidden" name="variantId"
+																	value="49192493" />
+																<button
+																	class="btn-buy btn-cart btn-left btn btn-views left-to add_to_cart active "
+																	title="Thêm vào giỏ">
+																	<svg xmlns="http://www.w3.org/2000/svg"
+																		version="1.1" x="0" y="0"
+																		viewBox="0 0 490.666 490.666"
+																		style="enable-background:new 0 0 512 512"
+																		xml:space="preserve" class="">
+																		<g>
+																			<path
+																				d="M394.667,373.333c-29.397,0-53.333,23.936-53.333,53.333S365.269,480,394.667,480S448,456.064,448,426.666    S424.064,373.333,394.667,373.333z M394.667,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32    c17.643,0,32,14.357,32,32C426.667,444.309,412.309,458.666,394.667,458.666z"
+																				fill="#ffffff" data-original="#000000"
+																				style="" class=""></path>
+																			<path
+																				d="M181.333,373.333c-29.397,0-53.333,23.936-53.333,53.333S151.936,480,181.333,480s53.333-23.936,53.333-53.333    S210.731,373.333,181.333,373.333z M181.333,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32s32,14.357,32,32    C213.333,444.309,198.976,458.666,181.333,458.666z"
+																				fill="#ffffff" data-original="#000000"
+																				style="" class=""></path>
+																			<path
+																				d="M437.333,330.666H191.125c-25.323,0-47.317-18.027-52.288-42.88L85.12,19.242c-1.003-4.992-5.376-8.576-10.453-8.576h-64    C4.779,10.666,0,15.445,0,21.333S4.779,32,10.667,32H65.92l51.989,259.989c6.955,34.773,37.76,60.011,73.216,60.011h246.208    c5.888,0,10.667-4.779,10.667-10.667C448,335.445,443.221,330.666,437.333,330.666z"
+																				fill="#ffffff" data-original="#000000"
+																				style="" class=""></path>
+																			<path
+																				d="M488,78.272c-2.027-2.283-4.928-3.605-8-3.605H96c-5.888,0-10.667,4.779-10.667,10.667S90.112,96,96,96h371.925    l-15.168,121.301c-2.005,15.979-15.659,28.032-31.765,28.032H128c-5.888,0-10.667,4.779-10.667,10.667    c0,5.888,4.779,10.667,10.667,10.667h292.992c26.837,0,49.6-20.075,52.928-46.72l16.661-133.291    C490.965,83.626,490.027,80.554,488,78.272z"
+																				fill="#ffffff" data-original="#000000"
+																				style="" class=""></path>
+																		</g>
+																	</svg>
+																	<span class="text">Mua ngay</span>
+																</button>
+
+															</div>
+														</div>
+													</div>
+													<div class="product-info">
+														<h3 class="product-name"><a
+																href="/sua-bot-cho-meo-110g-dr-kyan-precaten"
+																title="Sữa bột cho mèo 110g Dr.Kyan Precaten">Sữa bột
+																cho mèo 110g Dr.Kyan Precaten</a></h3>
+														<div class="price-box">
+
+
+															<span class="price">50.000₫</span>
+
+															<span class="compare-price">100.000₫</span>
+
+
+
+														</div>
+
+													</div>
+												</form>
+											</div>
+										</div>
+
+
+
+										<div class="item swiper-slide">
+											<div class="item_product_main">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+												<form action="/cart/add" method="post" class="variants wishItem"
+													data-id="product-actions-22474451" enctype="multipart/form-data">
+													<div class="product-thumbnail">
+														<a class="product_overlay"
+															href="/balo-van-chuyen-cho-meo-phi-hanh"
+															title="Balo vận chuyển chó mèo Phi hành"></a>
+														<a class="image_thumb" href="/balo-van-chuyen-cho-meo-phi-hanh"
+															title="Balo vận chuyển chó mèo Phi hành">
+															<img class="lazyload" width="10" height="10"
+																src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
+																data-src="//bizweb.dktcdn.net/thumb/large/100/432/370/products/tb2iokzgaowbunjssppxxxpgpxa-829197117.jpg?v=1626745922150"
+																alt="Balo vận chuyển chó mèo Phi hành">
+														</a>
+
+														<div class="product-action">
+															<div class="group_action">
+
+																<a title="Xem nhanh"
+																	href="/balo-van-chuyen-cho-meo-phi-hanh"
+																	data-handle="balo-van-chuyen-cho-meo-phi-hanh"
+																	class="xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+																	<svg aria-hidden="true" focusable="false"
+																		data-prefix="far" data-icon="search-plus"
+																		role="img" xmlns="http://www.w3.org/2000/svg"
+																		viewBox="0 0 512 512"
+																		class="svg-inline--fa fa-search-plus fa-w-16">
+																		<path fill="currentColor"
+																			d="M312 196v24c0 6.6-5.4 12-12 12h-68v68c0 6.6-5.4 12-12 12h-24c-6.6 0-12-5.4-12-12v-68h-68c-6.6 0-12-5.4-12-12v-24c0-6.6 5.4-12 12-12h68v-68c0-6.6 5.4-12 12-12h24c6.6 0 12 5.4 12 12v68h68c6.6 0 12 5.4 12 12zm196.5 289.9l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L347.5 387.1c-2.3-2.3-3.5-5.3-3.5-8.5v-13.2c-36.5 31.5-84 50.6-136 50.6C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208c0 52-19.1 99.5-50.6 136h13.2c3.2 0 6.2 1.3 8.5 3.5l121.4 121.4c4.7 4.7 4.7 12.3 0 17zM368 208c0-88.4-71.6-160-160-160S48 119.6 48 208s71.6 160 160 160 160-71.6 160-160z"
+																			class=""></path>
+																	</svg>
+																	<span class="text">Xem nhanh</span>
+																</a>
+
+
+																<input class="hidden" type="hidden" name="variantId"
+																	value="49159289" />
+																<button
+																	class="btn btn-cart btn-left  btn btn-views left-to"
+																	title="Tùy chọn" type="button"
+																	onclick="window.location.href='/balo-van-chuyen-cho-meo-phi-hanh'">
+																	<svg viewBox="0 0 1024 1024" width="20" height="20">
+																		<path class="path1"
+																			d="M390.71 1008.755c-2.109 0-4.248-0.262-6.378-0.81-45.976-11.803-90.149-30.042-131.291-54.21-11.923-7.003-16.13-22.21-9.501-34.344 8.15-14.925 12.459-31.866 12.459-48.992 0-56.464-45.936-102.4-102.4-102.4-17.125 0-34.066 4.309-48.992 12.459-12.133 6.627-27.339 2.421-34.342-9.501-24.17-41.142-42.408-85.315-54.211-131.293-3.333-12.989 3.92-26.349 16.629-30.629 41.699-14.037 69.717-53.034 69.717-97.037s-28.018-83-69.718-97.040c-12.707-4.278-19.962-17.638-16.627-30.627 11.803-45.976 30.042-90.149 54.211-131.291 7.003-11.923 22.21-16.13 34.344-9.501 14.923 8.15 31.864 12.459 48.99 12.459 56.464 0 102.4-45.936 102.4-102.4 0-17.126-4.309-34.067-12.459-48.99-6.629-12.134-2.422-27.341 9.501-34.344 41.141-24.168 85.314-42.408 131.291-54.211 12.994-3.334 26.349 3.92 30.627 16.627 14.040 41.701 53.037 69.718 97.040 69.718s83-28.018 97.038-69.717c4.28-12.71 17.645-19.965 30.629-16.629 45.976 11.802 90.15 30.042 131.293 54.211 11.922 7.003 16.128 22.208 9.501 34.342-8.152 14.926-12.461 31.867-12.461 48.992 0 56.464 45.936 102.4 102.4 102.4 17.126 0 34.067-4.309 48.992-12.459 12.138-6.629 27.341-2.421 34.344 9.501 24.166 41.141 42.406 85.314 54.21 131.291 3.334 12.989-3.918 26.349-16.627 30.627-41.701 14.040-69.718 53.037-69.718 97.040s28.018 83 69.718 97.038c12.707 4.28 19.962 17.638 16.627 30.629-11.803 45.976-30.042 90.15-54.21 131.291-7.005 11.925-22.208 16.128-34.344 9.502-14.926-8.152-31.867-12.461-48.992-12.461-56.464 0-102.4 45.936-102.4 102.4 0 17.125 4.309 34.066 12.461 48.992 6.627 12.136 2.421 27.341-9.502 34.344-41.141 24.166-85.314 42.406-131.291 54.21-12.992 3.336-26.349-3.918-30.629-16.627-14.038-41.701-53.035-69.718-97.038-69.718s-83 28.018-97.040 69.718c-3.578 10.624-13.502 17.437-24.25 17.437zM512 870.4c57.715 0 109.693 32.138 135.917 82.029 26.637-8.218 52.507-18.875 77.299-31.846-5.541-16.077-8.416-33.075-8.416-50.182 0-84.696 68.904-153.6 153.6-153.6 17.107 0 34.106 2.875 50.181 8.418 12.971-24.792 23.63-50.662 31.846-77.299-49.89-26.226-82.027-78.203-82.027-135.918s32.138-109.691 82.029-135.918c-8.218-26.637-18.875-52.506-31.846-77.299-16.077 5.542-33.074 8.418-50.182 8.418-84.696 0-153.6-68.904-153.6-153.6 0-17.107 2.875-34.106 8.418-50.181-24.792-12.971-50.662-23.63-77.299-31.846-26.226 49.89-78.203 82.027-135.918 82.027s-109.691-32.138-135.917-82.027c-26.637 8.216-52.507 18.874-77.299 31.846 5.542 16.075 8.416 33.072 8.416 50.181 0 84.696-68.904 153.6-153.6 153.6-17.109 0-34.106-2.874-50.181-8.418-12.973 24.794-23.63 50.662-31.846 77.299 49.89 26.227 82.027 78.203 82.027 135.918s-32.138 109.693-82.027 135.917c8.216 26.637 18.875 52.507 31.846 77.299 16.075-5.541 33.074-8.416 50.181-8.416 84.696 0 153.6 68.904 153.6 153.6 0 17.109-2.875 34.106-8.418 50.181 24.794 12.971 50.662 23.63 77.299 31.846 26.227-49.89 78.203-82.027 135.918-82.027z">
+																		</path>
+																		<path class="path2"
+																			d="M512 665.6c-84.696 0-153.6-68.904-153.6-153.6s68.904-153.6 153.6-153.6 153.6 68.904 153.6 153.6-68.904 153.6-153.6 153.6zM512 409.6c-56.464 0-102.4 45.936-102.4 102.4s45.936 102.4 102.4 102.4c56.464 0 102.4-45.936 102.4-102.4s-45.936-102.4-102.4-102.4z">
+																		</path>
+																	</svg>
+																	<span class="text">Tùy chọn</span>
+																</button>
+
+															</div>
+														</div>
+													</div>
+													<div class="product-info">
+														<h3 class="product-name"><a
+																href="/balo-van-chuyen-cho-meo-phi-hanh"
+																title="Balo vận chuyển chó mèo Phi hành">Balo vận chuyển
+																chó mèo Phi hành</a></h3>
+														<div class="price-box">
+
+
+															<span class="price">400.000₫</span>
+
+															<span class="compare-price">800.000₫</span>
+
+
+
+														</div>
+
+													</div>
+												</form>
+											</div>
+										</div>
+
+
+
+										<div class="item swiper-slide">
+											<div class="item_product_main">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+												<form action="/cart/add" method="post" class="variants wishItem"
+													data-id="product-actions-22475967" enctype="multipart/form-data">
+													<div class="product-thumbnail">
+														<a class="product_overlay"
+															href="/canxi-phot-pho-ho-tro-dieu-tri-cho-thu-cung"
+															title="Canxi Phốt Pho-hỗ trợ điều trị cho thú cưng"></a>
+														<a class="image_thumb"
+															href="/canxi-phot-pho-ho-tro-dieu-tri-cho-thu-cung"
+															title="Canxi Phốt Pho-hỗ trợ điều trị cho thú cưng">
+															<img class="lazyload" width="10" height="10"
+																src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
+																data-src="//bizweb.dktcdn.net/thumb/large/100/432/370/products/66.png?v=1626751038247"
+																alt="Canxi Phốt Pho-hỗ trợ điều trị cho thú cưng">
+														</a>
+
+														<div class="product-action">
+															<div class="group_action">
+
+																<a title="Xem nhanh"
+																	href="/canxi-phot-pho-ho-tro-dieu-tri-cho-thu-cung"
+																	data-handle="canxi-phot-pho-ho-tro-dieu-tri-cho-thu-cung"
+																	class="xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+																	<svg aria-hidden="true" focusable="false"
+																		data-prefix="far" data-icon="search-plus"
+																		role="img" xmlns="http://www.w3.org/2000/svg"
+																		viewBox="0 0 512 512"
+																		class="svg-inline--fa fa-search-plus fa-w-16">
+																		<path fill="currentColor"
+																			d="M312 196v24c0 6.6-5.4 12-12 12h-68v68c0 6.6-5.4 12-12 12h-24c-6.6 0-12-5.4-12-12v-68h-68c-6.6 0-12-5.4-12-12v-24c0-6.6 5.4-12 12-12h68v-68c0-6.6 5.4-12 12-12h24c6.6 0 12 5.4 12 12v68h68c6.6 0 12 5.4 12 12zm196.5 289.9l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L347.5 387.1c-2.3-2.3-3.5-5.3-3.5-8.5v-13.2c-36.5 31.5-84 50.6-136 50.6C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208c0 52-19.1 99.5-50.6 136h13.2c3.2 0 6.2 1.3 8.5 3.5l121.4 121.4c4.7 4.7 4.7 12.3 0 17zM368 208c0-88.4-71.6-160-160-160S48 119.6 48 208s71.6 160 160 160 160-71.6 160-160z"
+																			class=""></path>
+																	</svg>
+																	<span class="text">Xem nhanh</span>
+																</a>
+
+
+																<input type="hidden" name="variantId"
+																	value="49192264" />
+																<button
+																	class="btn-buy btn-cart btn-left btn btn-views left-to add_to_cart active "
+																	title="Thêm vào giỏ">
+																	<svg xmlns="http://www.w3.org/2000/svg"
+																		version="1.1" x="0" y="0"
+																		viewBox="0 0 490.666 490.666"
+																		style="enable-background:new 0 0 512 512"
+																		xml:space="preserve" class="">
+																		<g>
+																			<path
+																				d="M394.667,373.333c-29.397,0-53.333,23.936-53.333,53.333S365.269,480,394.667,480S448,456.064,448,426.666    S424.064,373.333,394.667,373.333z M394.667,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32    c17.643,0,32,14.357,32,32C426.667,444.309,412.309,458.666,394.667,458.666z"
+																				fill="#ffffff" data-original="#000000"
+																				style="" class=""></path>
+																			<path
+																				d="M181.333,373.333c-29.397,0-53.333,23.936-53.333,53.333S151.936,480,181.333,480s53.333-23.936,53.333-53.333    S210.731,373.333,181.333,373.333z M181.333,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32s32,14.357,32,32    C213.333,444.309,198.976,458.666,181.333,458.666z"
+																				fill="#ffffff" data-original="#000000"
+																				style="" class=""></path>
+																			<path
+																				d="M437.333,330.666H191.125c-25.323,0-47.317-18.027-52.288-42.88L85.12,19.242c-1.003-4.992-5.376-8.576-10.453-8.576h-64    C4.779,10.666,0,15.445,0,21.333S4.779,32,10.667,32H65.92l51.989,259.989c6.955,34.773,37.76,60.011,73.216,60.011h246.208    c5.888,0,10.667-4.779,10.667-10.667C448,335.445,443.221,330.666,437.333,330.666z"
+																				fill="#ffffff" data-original="#000000"
+																				style="" class=""></path>
+																			<path
+																				d="M488,78.272c-2.027-2.283-4.928-3.605-8-3.605H96c-5.888,0-10.667,4.779-10.667,10.667S90.112,96,96,96h371.925    l-15.168,121.301c-2.005,15.979-15.659,28.032-31.765,28.032H128c-5.888,0-10.667,4.779-10.667,10.667    c0,5.888,4.779,10.667,10.667,10.667h292.992c26.837,0,49.6-20.075,52.928-46.72l16.661-133.291    C490.965,83.626,490.027,80.554,488,78.272z"
+																				fill="#ffffff" data-original="#000000"
+																				style="" class=""></path>
+																		</g>
+																	</svg>
+																	<span class="text">Mua ngay</span>
+																</button>
+
+															</div>
+														</div>
+													</div>
+													<div class="product-info">
+														<h3 class="product-name"><a
+																href="/canxi-phot-pho-ho-tro-dieu-tri-cho-thu-cung"
+																title="Canxi Phốt Pho-hỗ trợ điều trị cho thú cưng">Canxi
+																Phốt Pho-hỗ trợ điều trị cho thú cưng</a></h3>
+														<div class="price-box">
+
+
+															<span class="price">276.000₫</span>
+
+															<span class="compare-price">552.000₫</span>
+
+
+
+														</div>
+
+													</div>
+												</form>
+											</div>
+										</div>
+
+
+
+										<div class="item swiper-slide">
+											<div class="item_product_main">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+												<form action="/cart/add" method="post" class="variants wishItem"
+													data-id="product-actions-22465147" enctype="multipart/form-data">
+													<div class="product-thumbnail">
+														<a class="product_overlay"
+															href="/do-choi-cho-meo-paw-happy-pet-circle-3-tang"
+															title="Đồ chơi cho mèo PAW Happy Pet Circle 3 tầng"></a>
+														<a class="image_thumb"
+															href="/do-choi-cho-meo-paw-happy-pet-circle-3-tang"
+															title="Đồ chơi cho mèo PAW Happy Pet Circle 3 tầng">
+															<img class="lazyload" width="10" height="10"
+																src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
+																data-src="//bizweb.dktcdn.net/thumb/large/100/432/370/products/5abd36eb09d04459b9d76a6cf928691b.jpg?v=1626691738247"
+																alt="Đồ chơi cho mèo PAW Happy Pet Circle 3 tầng">
+														</a>
+
+														<div class="product-action">
+															<div class="group_action">
+
+																<a title="Xem nhanh"
+																	href="/do-choi-cho-meo-paw-happy-pet-circle-3-tang"
+																	data-handle="do-choi-cho-meo-paw-happy-pet-circle-3-tang"
+																	class="xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+																	<svg aria-hidden="true" focusable="false"
+																		data-prefix="far" data-icon="search-plus"
+																		role="img" xmlns="http://www.w3.org/2000/svg"
+																		viewBox="0 0 512 512"
+																		class="svg-inline--fa fa-search-plus fa-w-16">
+																		<path fill="currentColor"
+																			d="M312 196v24c0 6.6-5.4 12-12 12h-68v68c0 6.6-5.4 12-12 12h-24c-6.6 0-12-5.4-12-12v-68h-68c-6.6 0-12-5.4-12-12v-24c0-6.6 5.4-12 12-12h68v-68c0-6.6 5.4-12 12-12h24c6.6 0 12 5.4 12 12v68h68c6.6 0 12 5.4 12 12zm196.5 289.9l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L347.5 387.1c-2.3-2.3-3.5-5.3-3.5-8.5v-13.2c-36.5 31.5-84 50.6-136 50.6C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208c0 52-19.1 99.5-50.6 136h13.2c3.2 0 6.2 1.3 8.5 3.5l121.4 121.4c4.7 4.7 4.7 12.3 0 17zM368 208c0-88.4-71.6-160-160-160S48 119.6 48 208s71.6 160 160 160 160-71.6 160-160z"
+																			class=""></path>
+																	</svg>
+																	<span class="text">Xem nhanh</span>
+																</a>
+
+
+																<input class="hidden" type="hidden" name="variantId"
+																	value="49044555" />
+																<button
+																	class="btn btn-cart btn-left  btn btn-views left-to"
+																	title="Tùy chọn" type="button"
+																	onclick="window.location.href='/do-choi-cho-meo-paw-happy-pet-circle-3-tang'">
+																	<svg viewBox="0 0 1024 1024" width="20" height="20">
+																		<path class="path1"
+																			d="M390.71 1008.755c-2.109 0-4.248-0.262-6.378-0.81-45.976-11.803-90.149-30.042-131.291-54.21-11.923-7.003-16.13-22.21-9.501-34.344 8.15-14.925 12.459-31.866 12.459-48.992 0-56.464-45.936-102.4-102.4-102.4-17.125 0-34.066 4.309-48.992 12.459-12.133 6.627-27.339 2.421-34.342-9.501-24.17-41.142-42.408-85.315-54.211-131.293-3.333-12.989 3.92-26.349 16.629-30.629 41.699-14.037 69.717-53.034 69.717-97.037s-28.018-83-69.718-97.040c-12.707-4.278-19.962-17.638-16.627-30.627 11.803-45.976 30.042-90.149 54.211-131.291 7.003-11.923 22.21-16.13 34.344-9.501 14.923 8.15 31.864 12.459 48.99 12.459 56.464 0 102.4-45.936 102.4-102.4 0-17.126-4.309-34.067-12.459-48.99-6.629-12.134-2.422-27.341 9.501-34.344 41.141-24.168 85.314-42.408 131.291-54.211 12.994-3.334 26.349 3.92 30.627 16.627 14.040 41.701 53.037 69.718 97.040 69.718s83-28.018 97.038-69.717c4.28-12.71 17.645-19.965 30.629-16.629 45.976 11.802 90.15 30.042 131.293 54.211 11.922 7.003 16.128 22.208 9.501 34.342-8.152 14.926-12.461 31.867-12.461 48.992 0 56.464 45.936 102.4 102.4 102.4 17.126 0 34.067-4.309 48.992-12.459 12.138-6.629 27.341-2.421 34.344 9.501 24.166 41.141 42.406 85.314 54.21 131.291 3.334 12.989-3.918 26.349-16.627 30.627-41.701 14.040-69.718 53.037-69.718 97.040s28.018 83 69.718 97.038c12.707 4.28 19.962 17.638 16.627 30.629-11.803 45.976-30.042 90.15-54.21 131.291-7.005 11.925-22.208 16.128-34.344 9.502-14.926-8.152-31.867-12.461-48.992-12.461-56.464 0-102.4 45.936-102.4 102.4 0 17.125 4.309 34.066 12.461 48.992 6.627 12.136 2.421 27.341-9.502 34.344-41.141 24.166-85.314 42.406-131.291 54.21-12.992 3.336-26.349-3.918-30.629-16.627-14.038-41.701-53.035-69.718-97.038-69.718s-83 28.018-97.040 69.718c-3.578 10.624-13.502 17.437-24.25 17.437zM512 870.4c57.715 0 109.693 32.138 135.917 82.029 26.637-8.218 52.507-18.875 77.299-31.846-5.541-16.077-8.416-33.075-8.416-50.182 0-84.696 68.904-153.6 153.6-153.6 17.107 0 34.106 2.875 50.181 8.418 12.971-24.792 23.63-50.662 31.846-77.299-49.89-26.226-82.027-78.203-82.027-135.918s32.138-109.691 82.029-135.918c-8.218-26.637-18.875-52.506-31.846-77.299-16.077 5.542-33.074 8.418-50.182 8.418-84.696 0-153.6-68.904-153.6-153.6 0-17.107 2.875-34.106 8.418-50.181-24.792-12.971-50.662-23.63-77.299-31.846-26.226 49.89-78.203 82.027-135.918 82.027s-109.691-32.138-135.917-82.027c-26.637 8.216-52.507 18.874-77.299 31.846 5.542 16.075 8.416 33.072 8.416 50.181 0 84.696-68.904 153.6-153.6 153.6-17.109 0-34.106-2.874-50.181-8.418-12.973 24.794-23.63 50.662-31.846 77.299 49.89 26.227 82.027 78.203 82.027 135.918s-32.138 109.693-82.027 135.917c8.216 26.637 18.875 52.507 31.846 77.299 16.075-5.541 33.074-8.416 50.181-8.416 84.696 0 153.6 68.904 153.6 153.6 0 17.109-2.875 34.106-8.418 50.181 24.794 12.971 50.662 23.63 77.299 31.846 26.227-49.89 78.203-82.027 135.918-82.027z">
+																		</path>
+																		<path class="path2"
+																			d="M512 665.6c-84.696 0-153.6-68.904-153.6-153.6s68.904-153.6 153.6-153.6 153.6 68.904 153.6 153.6-68.904 153.6-153.6 153.6zM512 409.6c-56.464 0-102.4 45.936-102.4 102.4s45.936 102.4 102.4 102.4c56.464 0 102.4-45.936 102.4-102.4s-45.936-102.4-102.4-102.4z">
+																		</path>
+																	</svg>
+																	<span class="text">Tùy chọn</span>
+																</button>
+
+															</div>
+														</div>
+													</div>
+													<div class="product-info">
+														<h3 class="product-name"><a
+																href="/do-choi-cho-meo-paw-happy-pet-circle-3-tang"
+																title="Đồ chơi cho mèo PAW Happy Pet Circle 3 tầng">Đồ
+																chơi cho mèo PAW Happy Pet Circle 3 tầng</a></h3>
+														<div class="price-box">
+
+
+															<span class="price">165.000₫</span>
+
+															<span class="compare-price">200.000₫</span>
+
+
+
+														</div>
+
+													</div>
+												</form>
+											</div>
+										</div>
+
+
+
+										<div class="item swiper-slide">
+											<div class="item_product_main">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+												<form action="/cart/add" method="post" class="variants wishItem"
+													data-id="product-actions-22464488" enctype="multipart/form-data">
+													<div class="product-thumbnail">
+														<a class="product_overlay"
+															href="/sua-bot-cho-cho-dr-kyan-predogen"
+															title="Sữa bột cho chó Dr.Kyan Predogen"></a>
+														<a class="image_thumb" href="/sua-bot-cho-cho-dr-kyan-predogen"
+															title="Sữa bột cho chó Dr.Kyan Predogen">
+															<img class="lazyload" width="10" height="10"
+																src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
+																data-src="//bizweb.dktcdn.net/thumb/large/100/432/370/products/sua-bot-cho-cho-dr-kyan-predogen-anh.jpg?v=1626688425177"
+																alt="Sữa bột cho chó Dr.Kyan Predogen">
+														</a>
+
+														<div class="product-action">
+															<div class="group_action">
+
+																<a title="Xem nhanh"
+																	href="/sua-bot-cho-cho-dr-kyan-predogen"
+																	data-handle="sua-bot-cho-cho-dr-kyan-predogen"
+																	class="xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+																	<svg aria-hidden="true" focusable="false"
+																		data-prefix="far" data-icon="search-plus"
+																		role="img" xmlns="http://www.w3.org/2000/svg"
+																		viewBox="0 0 512 512"
+																		class="svg-inline--fa fa-search-plus fa-w-16">
+																		<path fill="currentColor"
+																			d="M312 196v24c0 6.6-5.4 12-12 12h-68v68c0 6.6-5.4 12-12 12h-24c-6.6 0-12-5.4-12-12v-68h-68c-6.6 0-12-5.4-12-12v-24c0-6.6 5.4-12 12-12h68v-68c0-6.6 5.4-12 12-12h24c6.6 0 12 5.4 12 12v68h68c6.6 0 12 5.4 12 12zm196.5 289.9l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L347.5 387.1c-2.3-2.3-3.5-5.3-3.5-8.5v-13.2c-36.5 31.5-84 50.6-136 50.6C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208c0 52-19.1 99.5-50.6 136h13.2c3.2 0 6.2 1.3 8.5 3.5l121.4 121.4c4.7 4.7 4.7 12.3 0 17zM368 208c0-88.4-71.6-160-160-160S48 119.6 48 208s71.6 160 160 160 160-71.6 160-160z"
+																			class=""></path>
+																	</svg>
+																	<span class="text">Xem nhanh</span>
+																</a>
+
+
+																<input type="hidden" name="variantId"
+																	value="49036231" />
+																<button
+																	class="btn-buy btn-cart btn-left btn btn-views left-to add_to_cart active "
+																	title="Thêm vào giỏ">
+																	<svg xmlns="http://www.w3.org/2000/svg"
+																		version="1.1" x="0" y="0"
+																		viewBox="0 0 490.666 490.666"
+																		style="enable-background:new 0 0 512 512"
+																		xml:space="preserve" class="">
+																		<g>
+																			<path
+																				d="M394.667,373.333c-29.397,0-53.333,23.936-53.333,53.333S365.269,480,394.667,480S448,456.064,448,426.666    S424.064,373.333,394.667,373.333z M394.667,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32    c17.643,0,32,14.357,32,32C426.667,444.309,412.309,458.666,394.667,458.666z"
+																				fill="#ffffff" data-original="#000000"
+																				style="" class=""></path>
+																			<path
+																				d="M181.333,373.333c-29.397,0-53.333,23.936-53.333,53.333S151.936,480,181.333,480s53.333-23.936,53.333-53.333    S210.731,373.333,181.333,373.333z M181.333,458.666c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32s32,14.357,32,32    C213.333,444.309,198.976,458.666,181.333,458.666z"
+																				fill="#ffffff" data-original="#000000"
+																				style="" class=""></path>
+																			<path
+																				d="M437.333,330.666H191.125c-25.323,0-47.317-18.027-52.288-42.88L85.12,19.242c-1.003-4.992-5.376-8.576-10.453-8.576h-64    C4.779,10.666,0,15.445,0,21.333S4.779,32,10.667,32H65.92l51.989,259.989c6.955,34.773,37.76,60.011,73.216,60.011h246.208    c5.888,0,10.667-4.779,10.667-10.667C448,335.445,443.221,330.666,437.333,330.666z"
+																				fill="#ffffff" data-original="#000000"
+																				style="" class=""></path>
+																			<path
+																				d="M488,78.272c-2.027-2.283-4.928-3.605-8-3.605H96c-5.888,0-10.667,4.779-10.667,10.667S90.112,96,96,96h371.925    l-15.168,121.301c-2.005,15.979-15.659,28.032-31.765,28.032H128c-5.888,0-10.667,4.779-10.667,10.667    c0,5.888,4.779,10.667,10.667,10.667h292.992c26.837,0,49.6-20.075,52.928-46.72l16.661-133.291    C490.965,83.626,490.027,80.554,488,78.272z"
+																				fill="#ffffff" data-original="#000000"
+																				style="" class=""></path>
+																		</g>
+																	</svg>
+																	<span class="text">Mua ngay</span>
+																</button>
+
+															</div>
+														</div>
+													</div>
+													<div class="product-info">
+														<h3 class="product-name"><a
+																href="/sua-bot-cho-cho-dr-kyan-predogen"
+																title="Sữa bột cho chó Dr.Kyan Predogen">Sữa bột cho chó
+																Dr.Kyan Predogen</a></h3>
+														<div class="price-box">
+
+
+															<span class="price">165.000₫</span>
+
+															<span class="compare-price">190.000₫</span>
+
+
+
+														</div>
+
+													</div>
+												</form>
+											</div>
+										</div>
+
+
+
+										<div class="item swiper-slide">
+											<div class="item_product_main">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+												<form action="/cart/add" method="post" class="variants wishItem"
+													data-id="product-actions-22465617" enctype="multipart/form-data">
+													<div class="product-thumbnail">
+														<a class="product_overlay"
+															href="/sua-tam-cho-cho-long-trang-spirit-white-dog"
+															title="Sữa tắm cho chó lông trắng SPIRIT White Dog"></a>
+														<a class="image_thumb"
+															href="/sua-tam-cho-cho-long-trang-spirit-white-dog"
+															title="Sữa tắm cho chó lông trắng SPIRIT White Dog">
+															<img class="lazyload" width="10" height="10"
+																src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
+																data-src="//bizweb.dktcdn.net/thumb/large/100/432/370/products/52.png?v=1626693016593"
+																alt="Sữa tắm cho chó lông trắng SPIRIT White Dog">
+														</a>
+
+														<div class="product-action">
+															<div class="group_action">
+
+																<a title="Xem nhanh"
+																	href="/sua-tam-cho-cho-long-trang-spirit-white-dog"
+																	data-handle="sua-tam-cho-cho-long-trang-spirit-white-dog"
+																	class="xem_nhanh btn-circle btn-views btn_view btn right-to quick-view">
+																	<svg aria-hidden="true" focusable="false"
+																		data-prefix="far" data-icon="search-plus"
+																		role="img" xmlns="http://www.w3.org/2000/svg"
+																		viewBox="0 0 512 512"
+																		class="svg-inline--fa fa-search-plus fa-w-16">
+																		<path fill="currentColor"
+																			d="M312 196v24c0 6.6-5.4 12-12 12h-68v68c0 6.6-5.4 12-12 12h-24c-6.6 0-12-5.4-12-12v-68h-68c-6.6 0-12-5.4-12-12v-24c0-6.6 5.4-12 12-12h68v-68c0-6.6 5.4-12 12-12h24c6.6 0 12 5.4 12 12v68h68c6.6 0 12 5.4 12 12zm196.5 289.9l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L347.5 387.1c-2.3-2.3-3.5-5.3-3.5-8.5v-13.2c-36.5 31.5-84 50.6-136 50.6C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208c0 52-19.1 99.5-50.6 136h13.2c3.2 0 6.2 1.3 8.5 3.5l121.4 121.4c4.7 4.7 4.7 12.3 0 17zM368 208c0-88.4-71.6-160-160-160S48 119.6 48 208s71.6 160 160 160 160-71.6 160-160z"
+																			class=""></path>
+																	</svg>
+																	<span class="text">Xem nhanh</span>
+																</a>
+
+
+																<input class="hidden" type="hidden" name="variantId"
+																	value="49047436" />
+																<button
+																	class="btn btn-cart btn-left  btn btn-views left-to"
+																	title="Tùy chọn" type="button"
+																	onclick="window.location.href='/sua-tam-cho-cho-long-trang-spirit-white-dog'">
+																	<svg viewBox="0 0 1024 1024" width="20" height="20">
+																		<path class="path1"
+																			d="M390.71 1008.755c-2.109 0-4.248-0.262-6.378-0.81-45.976-11.803-90.149-30.042-131.291-54.21-11.923-7.003-16.13-22.21-9.501-34.344 8.15-14.925 12.459-31.866 12.459-48.992 0-56.464-45.936-102.4-102.4-102.4-17.125 0-34.066 4.309-48.992 12.459-12.133 6.627-27.339 2.421-34.342-9.501-24.17-41.142-42.408-85.315-54.211-131.293-3.333-12.989 3.92-26.349 16.629-30.629 41.699-14.037 69.717-53.034 69.717-97.037s-28.018-83-69.718-97.040c-12.707-4.278-19.962-17.638-16.627-30.627 11.803-45.976 30.042-90.149 54.211-131.291 7.003-11.923 22.21-16.13 34.344-9.501 14.923 8.15 31.864 12.459 48.99 12.459 56.464 0 102.4-45.936 102.4-102.4 0-17.126-4.309-34.067-12.459-48.99-6.629-12.134-2.422-27.341 9.501-34.344 41.141-24.168 85.314-42.408 131.291-54.211 12.994-3.334 26.349 3.92 30.627 16.627 14.040 41.701 53.037 69.718 97.040 69.718s83-28.018 97.038-69.717c4.28-12.71 17.645-19.965 30.629-16.629 45.976 11.802 90.15 30.042 131.293 54.211 11.922 7.003 16.128 22.208 9.501 34.342-8.152 14.926-12.461 31.867-12.461 48.992 0 56.464 45.936 102.4 102.4 102.4 17.126 0 34.067-4.309 48.992-12.459 12.138-6.629 27.341-2.421 34.344 9.501 24.166 41.141 42.406 85.314 54.21 131.291 3.334 12.989-3.918 26.349-16.627 30.627-41.701 14.040-69.718 53.037-69.718 97.040s28.018 83 69.718 97.038c12.707 4.28 19.962 17.638 16.627 30.629-11.803 45.976-30.042 90.15-54.21 131.291-7.005 11.925-22.208 16.128-34.344 9.502-14.926-8.152-31.867-12.461-48.992-12.461-56.464 0-102.4 45.936-102.4 102.4 0 17.125 4.309 34.066 12.461 48.992 6.627 12.136 2.421 27.341-9.502 34.344-41.141 24.166-85.314 42.406-131.291 54.21-12.992 3.336-26.349-3.918-30.629-16.627-14.038-41.701-53.035-69.718-97.038-69.718s-83 28.018-97.040 69.718c-3.578 10.624-13.502 17.437-24.25 17.437zM512 870.4c57.715 0 109.693 32.138 135.917 82.029 26.637-8.218 52.507-18.875 77.299-31.846-5.541-16.077-8.416-33.075-8.416-50.182 0-84.696 68.904-153.6 153.6-153.6 17.107 0 34.106 2.875 50.181 8.418 12.971-24.792 23.63-50.662 31.846-77.299-49.89-26.226-82.027-78.203-82.027-135.918s32.138-109.691 82.029-135.918c-8.218-26.637-18.875-52.506-31.846-77.299-16.077 5.542-33.074 8.418-50.182 8.418-84.696 0-153.6-68.904-153.6-153.6 0-17.107 2.875-34.106 8.418-50.181-24.792-12.971-50.662-23.63-77.299-31.846-26.226 49.89-78.203 82.027-135.918 82.027s-109.691-32.138-135.917-82.027c-26.637 8.216-52.507 18.874-77.299 31.846 5.542 16.075 8.416 33.072 8.416 50.181 0 84.696-68.904 153.6-153.6 153.6-17.109 0-34.106-2.874-50.181-8.418-12.973 24.794-23.63 50.662-31.846 77.299 49.89 26.227 82.027 78.203 82.027 135.918s-32.138 109.693-82.027 135.917c8.216 26.637 18.875 52.507 31.846 77.299 16.075-5.541 33.074-8.416 50.181-8.416 84.696 0 153.6 68.904 153.6 153.6 0 17.109-2.875 34.106-8.418 50.181 24.794 12.971 50.662 23.63 77.299 31.846 26.227-49.89 78.203-82.027 135.918-82.027z">
+																		</path>
+																		<path class="path2"
+																			d="M512 665.6c-84.696 0-153.6-68.904-153.6-153.6s68.904-153.6 153.6-153.6 153.6 68.904 153.6 153.6-68.904 153.6-153.6 153.6zM512 409.6c-56.464 0-102.4 45.936-102.4 102.4s45.936 102.4 102.4 102.4c56.464 0 102.4-45.936 102.4-102.4s-45.936-102.4-102.4-102.4z">
+																		</path>
+																	</svg>
+																	<span class="text">Tùy chọn</span>
+																</button>
+
+															</div>
+														</div>
+													</div>
+													<div class="product-info">
+														<h3 class="product-name"><a
+																href="/sua-tam-cho-cho-long-trang-spirit-white-dog"
+																title="Sữa tắm cho chó lông trắng SPIRIT White Dog">Sữa
+																tắm cho chó lông trắng SPIRIT White Dog</a></h3>
+														<div class="price-box">
+
+
+															<span class="price">155.000₫</span>
+
+															<span class="compare-price">200.000₫</span>
+
+
+
+														</div>
+
+													</div>
+												</form>
+											</div>
+										</div>
+
+
+									</div>
+								</div>
+
+							</div>
+						</div> -->
+					</div>
+
+				</div>
+			</section>
+
+		</section>
+
+
+
+		<script>
+
+			var formProduct = $('.form-product');
+
+
+
+			var ww = $(window).width();
+			var getLimit = 4;
+
+			function validate(evt) {
+				var theEvent = evt || window.event;
+				var key = theEvent.keyCode || theEvent.which;
+				key = String.fromCharCode(key);
+				var regex = /[0-9]|\./;
+				if (!regex.test(key)) {
+					theEvent.returnValue = false;
+					if (theEvent.preventDefault) theEvent.preventDefault();
+				}
+			}
+
+			var selectCallback = function (variant, selector) {
+				if (variant) {
+
+
+					var form = jQuery('#' + selector.domIdPrefix).closest('form');
+
+					for (var i = 0, length = variant.options.length; i < length; i++) {
+
+						var radioButton = form.find('.swatch[data-option-index="' + i + '"] :radio[value="' + variant.options[i] + '"]');
+						if (radioButton.size()) {
+							radioButton.get(0).checked = true;
+						}
+					}
+				}
+				var addToCart = jQuery('.form-product .btn-cart'),
+					group = jQuery('.form_product_content'),
+					form = jQuery('.form-product .button_actions'),
+					form2 = jQuery('.soluong'),
+					product_sku = jQuery('.details-pro .product-sku'),
+					productPrice = jQuery('.details-pro .special-price .product-price'),
+					qty = jQuery('.first_status .availabel'),
+					sale = jQuery('.details-pro .old-price .product-price-old'),
+					promotion = jQuery('.details-pro .promotion'),
+					buynow = jQuery('.form-product .btn_buynow'),
+					comparePrice = jQuery('.details-pro .old-price .product-price-old'),
+					discount = jQuery('.details-pro .discount'),
+					vat = jQuery('.form-group .vat');
+
+				/* SKU */
+				if (variant && variant.sku != "" && variant.sku != null) {
+					product_sku.html(variant.sku);
+				} else {
+					product_sku.html('Đang cập nhật');
+				};
+				/*** VAT ***/
+				if (variant) {
+					if (variant.taxable) {
+						$('.form-group').removeClass('hidden').find('.vat').text('(Đã bao gồm VAT)');
+					} else {
+						$('.form-group').removeClass('hidden').find('.vat').text('(Chưa bao gồm VAT)');
+					}
+				}
+
+				if (variant && variant.available) {
+					if (variant.inventory_management == "bizweb" || variant.inventory_management == "sapo") {
+						if (variant.inventory_quantity != 0) {
+							qty.html('<link itemprop="availability" href="http://schema.org/OutOfStock" />Còn hàng');
+						} else if (variant.inventory_quantity == '') {
+							qty.html('<link itemprop="availability" href="http://schema.org/InStock" />Hết hàng');
+						}
+					} else {
+						qty.html('<link itemprop="availability" href="http://schema.org/OutOfStock" />Còn hàng');
+					}
+
+					buynow.removeClass('hidden');
+					group.removeClass('hidden');
+					addToCart.html('<span class="text_1">Thêm vào giỏ hàng</span>').removeAttr('disabled');
+					if (variant.price == 0) {
+						productPrice.html('Liên hệ');
+						comparePrice.hide();
+						form.addClass('hidden');
+						vat.addClass('hidden');
+						discount.addClass('hidden');
+						form2.addClass('hidden');
+						sale.removeClass('sale');
+						group.addClass('hidden');
+						if (variant.inventory_management == "bizweb" || variant.inventory_management == "sapo") {
+							if (variant.inventory_quantity != 0) {
+								qty.html('<link itemprop="availability" href="http://schema.org/InStock" />Còn hàng');
+							} else if (variant.inventory_quantity == '') {
+								qty.html('<link itemprop="availability" href="http://schema.org/OutOfStock" />Hết hàng');
+							}
+						} else {
+							qty.html('<link itemprop="availability" href="http://schema.org/InStock" />Còn hàng');
+						}
+					} else {
+						form.removeClass('hidden');
+						productPrice.html(Bizweb.formatMoney(variant.price, "{{amount_no_decimals_with_comma_separator}}₫"));
+						// Also update and show the product's compare price if necessary
+						if (variant.compare_at_price > variant.price) {
+							comparePrice.html(Bizweb.formatMoney(variant.compare_at_price, "{{amount_no_decimals_with_comma_separator}}₫")).show();
+							sale.addClass('sale');
+							var pt = ((variant.compare_at_price - variant.price)) / variant.compare_at_price * 100;
+							if (pt > 99) {
+								pt = 99;
+							}
+							if (pt <= 1) {
+								pt = 1;
+							}
+							discount.html('-' + Math.round(pt) + '%');
+
+							if (variant.inventory_management == "bizweb" || variant.inventory_management == "sapo") {
+								if (variant.inventory_quantity != 0) {
+									qty.html('<link itemprop="availability" href="http://schema.org/InStock" />Còn hàng');
+									form2.removeClass('hidden');
+									form.removeClass('hidden');
+									vat.removeClass('hidden');
+									discount.removeClass('hidden');
+								} else if (variant.inventory_quantity == '') {
+									qty.html('<link itemprop="availability" href="http://schema.org/InStock" />Còn hàng');
+									form2.removeClass('hidden');
+									form.removeClass('hidden');
+									vat.removeClass('hidden');
+									discount.removeClass('hidden');
+								}
+							} else {
+								qty.html('<link itemprop="availability" href="http://schema.org/InStock" />Còn hàng');
+								form2.removeClass('hidden');
+								form.removeClass('hidden');
+								vat.removeClass('hidden');
+								discount.removeClass('hidden');
+							}
+
+						} else {
+							comparePrice.hide();
+							sale.removeClass('sale');
+							form2.removeClass('hidden');
+							vat.removeClass('hidden');
+							discount.addClass('hidden');
+							if (variant.inventory_management == "bizweb" || variant.inventory_management == "sapo") {
+								if (variant.inventory_quantity != 0) {
+									qty.html('<link itemprop="availability" href="http://schema.org/InStock" />Còn hàng');
+									form2.removeClass('hidden');
+									form.removeClass('hidden');
+								} else if (variant.inventory_quantity == '') {
+									qty.html('<link itemprop="availability" href="http://schema.org/InStock" />Còn hàng');
+									form2.removeClass('hidden');
+									form.removeClass('hidden');
+								}
+							} else {
+								qty.html('<link itemprop="availability" href="http://schema.org/InStock" />Còn hàng');
+								form2.removeClass('hidden');
+								form.removeClass('hidden');
+							}
+						}
+					}
+
+				} else {
+					addToCart.html('<span class="text_1">Hết hàng</span>').attr('disabled', 'disabled');
+					qty.html('Hết hàng');
+					buynow.addClass('hidden');
+					form.removeClass('hidden');
+					form2.addClass('hidden');
+					group.removeClass('hidden');
+					vat.removeClass('hidden');
+
+					if (variant) {
+						if (variant.price != 0) {
+							form.removeClass('hidden');
+							buynow.addClass('hidden');
+							productPrice.html(Bizweb.formatMoney(variant.price, "{{amount_no_decimals_with_comma_separator}}₫"));
+							// Also update and show the product's compare price if necessary
+							if (variant.compare_at_price > variant.price) {
+								form.addClass('hidden');
+								comparePrice.html(Bizweb.formatMoney(variant.compare_at_price, "{{amount_no_decimals_with_comma_separator}}₫")).show();
+								sale.addClass('sale');
+								addToCart.html('<span class="text_1">Hết hàng</span>').attr('disabled', 'disabled').removeClass('hidden');
+								var pt = ((variant.compare_at_price - variant.price)) / variant.compare_at_price * 100;
+								if (pt > 99) {
+									pt = 99;
+								}
+								if (pt <= 1) {
+									pt = 1;
+								}
+								discount.html('-' + Math.round(pt) + '%');
+								if (variant.inventory_management == "bizweb" || variant.inventory_management == "sapo") {
+									if (variant.inventory_quantity != 0) {
+										qty.html('<link itemprop="availability" href="http://schema.org/InStock" />Còn hàng');
+									} else if (variant.inventory_quantity == '') {
+										qty.html('<link itemprop="availability" href="http://schema.org/OutOfStock" />Hết hàng');
+										form2.addClass('hidden');
+										form.removeClass('hidden');
+									}
+								} else {
+									qty.html('<link itemprop="availability" href="http://schema.org/InStock" />Còn hàng');
+								}
+
+							} else {
+								comparePrice.hide();
+								vat.removeClass('hidden');
+								sale.removeClass('sale');
+								discount.addClass('hidden');
+								buynow.addClass('hidden');
+								form.addClass('hidden');
+								addToCart.html('<span class="text_1">Hết hàng</span>').attr('disabled', 'disabled').removeClass('hidden');
+								if (variant.inventory_management == "bizweb" || variant.inventory_management == "sapo") {
+									if (variant.inventory_quantity != 0) {
+										qty.html('<link itemprop="availability" href="http://schema.org/InStock" />Còn hàng');
+									} else if (variant.inventory_quantity == '') {
+										form2.addClass('hidden');
+										qty.html('<link itemprop="availability" href="http://schema.org/OutOfStock" />Hết hàng');
+										form.removeClass('hidden');
+
+									}
+								} else {
+									qty.html('<link itemprop="availability" href="http://schema.org/InStock" />Còn hàng');
+								}
+							}
+						} else {
+							productPrice.html('Liên hệ');
+							form2.addClass('hidden');
+							vat.addClass('hidden');
+							comparePrice.hide();
+							buynow.addClass('hidden');
+							discount.addClass('hidden');
+							form.addClass('hidden');
+							sale.removeClass('sale');
+							group.addClass('hidden');
+						}
+					} else {
+						productPrice.html('Liên hệ');
+						form2.addClass('hidden');
+						vat.addClass('hidden');
+						buynow.addClass('hidden');
+						comparePrice.hide();
+						discount.addClass('hidden');
+						form.addClass('hidden');
+						sale.removeClass('sale');
+					}
+				}
+				/*begin variant image*/
+				if (variant && variant.image) {
+					var originalImage = jQuery(".large-image img");
+					var newImage = variant.image;
+					var element = originalImage[0];
+					Bizweb.Image.switchImage(newImage, element, function (newImageSizedSrc, newImage, element) {
+						jQuery(element).parents('a').attr('data-href', newImageSizedSrc);
+						jQuery(element).attr('src', newImageSizedSrc);
+						jQuery('.thumb_scroll img').attr('src', newImageSizedSrc);
+					});
+
+				}
+			};
+
+
+
+			jQuery(function ($) {
+
+
+				// Add label if only one product option and it isn't 'Title'. Could be 'Size'.
+
+
+				// Hide selectors if we only have 1 variant and its title contains 'Default'.
+
+				$('.selector-wrapper').hide();
+
+				$('.selector-wrapper').css({
+					'text-align': 'left',
+					'margin-bottom': '15px'
+				});
+			});
+
+			jQuery('.swatch :radio').change(function () {
+				var optionIndex = jQuery(this).closest('.swatch').attr('data-option-index');
+				var optionValue = jQuery(this).val();
+				jQuery(this)
+					.closest('form')
+					.find('.single-option-selector')
+					.eq(optionIndex)
+					.val(optionValue)
+					.trigger('change');
+			});
+
+			/*For recent product*/
+			var alias = 'nuoc-rua-khoe-mat-cho-meo-beaphar';
+			/*end*/
+			$(".not-dqtab").each(function (e) {
+				$(this).find('.tabs-title li:first-child').addClass('current');
+				$(this).find('.tab-content').first().addClass('current');
+
+				$(this).find('.tabs-title li').click(function () {
+					if ($(window).width() > 315) {
+						if ($(this).hasClass('current')) {
+
+						} else {
+							var tab_id = $(this).attr('data-tab');
+							var url = $(this).attr('data-url');
+							$(this).closest('.e-tabs').find('.tab-viewall').attr('href', url);
+
+							$(this).closest('.e-tabs').find('.tabs-title li').removeClass('current');
+							$(this).closest('.e-tabs').find('.tab-content').removeClass('current');
+
+							$(this).addClass('current');
+							$(this).closest('.e-tabs').find("#" + tab_id).addClass('current');
+						}
+					} else {
+						var tab_id = $(this).attr('data-tab');
+						var url = $(this).attr('data-url');
+						$(this).closest('.e-tabs').find('.tab-viewall').attr('href', url);
+
+						$(this).closest('.e-tabs').find('.tabs-title li').removeClass('current');
+						$(this).closest('.e-tabs').find('.tab-content').removeClass('current');
+
+						$(this).addClass('current');
+						$(this).closest('.e-tabs').find("#" + tab_id).addClass('current');
+
+					}
+
+				});
+			});
+
+
+
+			$('.swiper_big_image a').each(function () {
+				$(this).attr('rel', 'lightbox-demo');
+			});
+
+		</script>
+
+		<script>
+
+
+			function scrollToxx() {
+				$('html, body').animate({ scrollTop: $('.product-tab.e-tabs').offset().top }, 'slow');
+				$('.product-tab .tab-link').removeClass('current');
+				$('#tab-review').addClass('current');
+				$('.tab-content').removeClass('current');
+				$('.tab-review-c').addClass('current');
+				return false;
+			}
+
+
+			$(document).ready(function (e) {
+
+				var gallerythumb = new Swiper('.swiper_thumb_image', {
+					spaceBetween: 10,
+					slidesPerView: 4,
+					direction: 'vertical',
+					freeMode: true,
+					lazy: true,
+					watchSlidesVisibility: true,
+					watchSlidesProgress: true,
+					hashNavigation: true,
+					breakpoints: {
+						300: {
+							slidesPerView: 3,
+							spaceBetween: 10,
+						},
+						500: {
+							slidesPerView: 3,
+							spaceBetween: 10,
+						},
+						767: {
+							slidesPerView: 3,
+							spaceBetween: 10,
+						},
+						768: {
+							slidesPerView: 4,
+							spaceBetween: 10,
+						},
+						992: {
+							slidesPerView: 4,
+							spaceBetween: 10,
+						},
+						1200: {
+							slidesPerView: 4,
+							spaceBetween: 10,
+						},
+					}
+				});
+
+				var gallerybig = new Swiper('.swiper_big_image', {
+					spaceBetween: 0,
+					slidesPerView: 1,
+					lazy: true,
+					thumbs: {
+						swiper: gallerythumb
+					},
+					breakpoints: {
+						300: {
+							slidesPerView: 1,
+							spaceBetween: 0,
+						},
+						425: {
+							slidesPerView: 1,
+							spaceBetween: 0,
+						},
+						767: {
+							slidesPerView: 1,
+							spaceBetween: 0,
+						},
+						768: {
+							slidesPerView: 1,
+							spaceBetween: 0,
+						},
+						1024: {
+							slidesPerView: 1,
+							spaceBetween: 0,
+						},
+					}
+				});
+
+				var galleryThumbs = new Swiper('.swiper_related', {
+					spaceBetween: 30,
+					slidesPerView: 5,
+					watchSlidesVisibility: true,
+					watchSlidesProgress: true,
+					hashNavigation: true,
+					breakpoints: {
+						300: {
+							slidesPerView: 2,
+							spaceBetween: 15,
+						},
+						500: {
+							slidesPerView: 2,
+							spaceBetween: 15,
+						},
+						767: {
+							slidesPerView: 2,
+							spaceBetween: 15,
+						},
+						768: {
+							slidesPerView: 3,
+							spaceBetween: 30,
+						},
+						992: {
+							slidesPerView: 4,
+							spaceBetween: 30,
+						},
+						1200: {
+							slidesPerView: 5,
+							spaceBetween: 30,
+						},
+					}
+				});
+
+				$(".tab-content .rte").each(function (e) {
+					if ($('.tab-content .rte #content').height() >= 400) {
+						$('.tab-content').find('.read-more').removeClass('hidden').addClass('more');
+					}
+					else {
+						$('.tab-content').find('.read-more').addClass('hidden');
+					}
+				});
+
+				jQuery('.read-more').on('click', function (event) {
+					if ($('.read-more').hasClass('more')) {
+						$(this).removeClass('more').addClass('less');
+						$(this).html('<span>Thu gọn <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="angle-up" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-angle-up fa-w-10"><path fill="currentColor" d="M168.5 164.2l148 146.8c4.7 4.7 4.7 12.3 0 17l-19.8 19.8c-4.7 4.7-12.3 4.7-17 0L160 229.3 40.3 347.8c-4.7 4.7-12.3 4.7-17 0L3.5 328c-4.7-4.7-4.7-12.3 0-17l148-146.8c4.7-4.7 12.3-4.7 17 0z" class=""></path></svg></span>');
+					} else {
+						$(this).removeClass('less').addClass('more');
+						$(this).html('<span>Xem thêm <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-angle-down fa-w-10"><path fill="currentColor" d="M151.5 347.8L3.5 201c-4.7-4.7-4.7-12.3 0-17l19.8-19.8c4.7-4.7 12.3-4.7 17 0L160 282.7l119.7-118.5c4.7-4.7 12.3-4.7 17 0l19.8 19.8c4.7 4.7 4.7 12.3 0 17l-148 146.8c-4.7 4.7-12.3 4.7-17 0z" class=""></path></svg></span>');
+						$('html, body').animate({
+							scrollTop: $('#content').offset().top
+						}, 200);
+					}
+
+					jQuery(".tab-content .rte").toggleClass("expand");
+				});
+
+				$('#gallery_02 img, .swatch-element label').click(function (e) {
+					e.preventDefault();
+					var ths = $(this).attr('data-image');
+					$('.large-image .checkurl').attr('src', ths);
+
+					$('.large-image .checkurl img').attr('src', ths);
+
+					/*** xử lý active thumb -- ko variant ***/
+					var thumbLargeimg = $('.details-product .large-image a').attr('href');
+					var thumMedium = $('#gallery_02 .owl-item .item a').find('img').attr('src');
+					var url = [];
+
+					$('#gallery_02 .owl-item .item').each(function () {
+						var srcImg = '';
+						$(this).find('a img').each(function () {
+							var current = $(this);
+							if (current.children().size() > 0) { return true; }
+							srcImg += $(this).attr('src');
+						});
+						url.push(srcImg);
+						var srcimage = $(this).find('a img').attr('src');
+						if (srcimage == thumbLargeimg) {
+							$(this).find('a').addClass('active');
+						} else {
+							$(this).find('a').removeClass('active');
+						}
+					});
+				})
+
+			});
+
+
+		</script>
 	</div>
 
 
@@ -1749,7 +2208,7 @@
         <div class="mid-footer">
             <div class="container">
                 <div class="block-logo">
-                    <a href="../">
+                    <a href="./">
                         <img class="lazyload" width="10" height="10"
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
                             data-src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRomNX3h1-lXrBk0fJmDRbOVJgRg2TlaKUSS41CNdBSJY8p6Wf7c7MDdGWZxt_oeba4qh4xmsqXHq1ypxdVvb3nfCba8UgD9vGug5kUwWEFPVZZLmD-S5u-QbrCr9gC_hpj4c7gheltRxoUDU8fkVWUAgiv06vH_PLCEMYLnNtAWwXYcmkIT0Oa1PmTcw/s16000/Pawsome.png"
@@ -2702,29 +3161,15 @@
 		type="text/javascript"></script>
 
 
-	<link href="//bizweb.dktcdn.net/100/432/370/themes/894869/assets/jquery-ui-min.scss?1676276556806" rel="stylesheet"
-		type="text/css" media="all" />
-	<script type="text/javascript"
-		src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
-	<script src="//bizweb.dktcdn.net/100/432/370/themes/894869/assets/search_filter.js?1676276556806"
+
+	<link rel="preload" as="script"
+		href="//bizweb.dktcdn.net/100/432/370/themes/894869/assets/box_gallary.js?1676276556806" />
+	<link rel="preload" as='style' type="text/css"
+		href="//bizweb.dktcdn.net/100/432/370/themes/894869/assets/box_gallary.scss.css?1676276556806">
+	<link href="//bizweb.dktcdn.net/100/432/370/themes/894869/assets/box_gallary.scss.css?1676276556806"
+		rel="stylesheet" type="text/css" media="all" />
+	<script src="//bizweb.dktcdn.net/100/432/370/themes/894869/assets/box_gallary.js?1676276556806"
 		type="text/javascript"></script>
-	<script>
-		var filter = new Bizweb.SearchFilter()
-
-		function clearAllFiltered() {
-			filter = new Bizweb.SearchFilter();
-
-
-			$(".filter-container__selected-filter-list ul").html("");
-			$(".filter-container input[type=checkbox]").attr('checked', false);
-			$(".filter-container__selected-filter").hide();
-
-			doSearch(1);
-		}
-	</script>
-	<script src="//bizweb.dktcdn.net/100/432/370/themes/894869/assets/col.js?1676276556806"
-		type="text/javascript"></script>
-
 
 	<script type="text/x-custom-template" data-template="ItemDropCart">
 <li class="item productid-${id_item}">
