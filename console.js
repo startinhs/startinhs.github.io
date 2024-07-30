@@ -25,8 +25,6 @@ async function open_terminal(){
   await delay(200);
   createText("Xin chào bạn đến với Website của tôi!");
   await delay(700);
-  createText("Đang bắt đầu máy chủ...");
-  await delay(1500);
   createText("Bạn có thể chạy một số lệnh:");
   createCode("about", "Một số thông tin về tôi.");
   createCode("social ", "Các trang Mạng xã hội tôi dùng.");
@@ -63,7 +61,7 @@ function new_lineStart(){
   const span1 = document.createElement("span");
   const span2 = document.createElement("span");
   p.setAttribute("class", "path")
-  p.textContent = "leminhtinh@startinhs";
+  p.textContent = "user@startinhs";
   span1.textContent = ":~$";
   span2.textContent = " sudo startinhs";
   p.appendChild(span1);
@@ -109,17 +107,17 @@ async function getInput(){
     trueValue(value);
     createText("Xin chào, tôi là Lê Minh Tính ;)")
     createText("Đôi nét về bản thân: là người đam mê công nghệ và vọc vạch những điều mới mẻ. Hiện tại đang là sinh viên Đại học Mở TPHCM, chuyên ngành Hệ Thống Thông Tin.")
-    createText("Và có sở thích nghe nhạc, viết blog, bơi lội,..bla.")
+    createText("Và có sở thích nghe nhạc, viết blog, bơi lội,...")
   }
   else if(value === "social"){
     trueValue(value);
-    createText("<a href='https://www.fb.com/181.startinhs' target='_blank'> facebook.com/181.startinhs</a>")
-    createText("<a href='https://www.instagram.com/startinhs_' target='_blank'> instagram.com/startinhs_</a>")
-    createText("<a href='https://www.youtube.com/startinhs' target='_blank'> youtube.com/startinhs</a>")
+    createText("<a href='https://www.fb.com/startinhs' target='_blank'>Facebook: Lê Minh Tính</a>")
+    createText("<a href='https://www.instagram.com/_startinhs' target='_blank'>Instagram: Lê Minh Tính</a>")
+    createText("<a href='https://www.youtube.com/startinhs' target='_blank'>youtube: Startinhs</a>")
   }
   else if (value === "blog") {
     trueValue(value)
-    window.open("https://startinhs.cf/blogTips", "_blank")
+    window.open("https://startinhs.blogspot.com", "_blank")
   }
   else if (value === "mail") {
     trueValue(value)
@@ -131,8 +129,8 @@ async function getInput(){
   }
   else{
     falseValue(value);
-    createText(`Trời ơi hông có lệnh này: ${value}`)
-    createText(`Nhập 'menu' để xem lại lệnh i`)
+    createText(`Lệnh '${value}' không đúng!`)
+    createText(`Nhập 'menu' để xem lại lệnh nha`)
   }
 }
 
