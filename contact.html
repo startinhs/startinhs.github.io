@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- <script type="text/javascript">
+var bits=90;var speed=33;var bangs=7;var colours=new Array("#03f","#f03","#fff","#f7efa1","#0cf","#f93","#f0c","#fff");var bangheight=new Array();var intensity=new Array();var colour=new Array();var Xpos=new Array();var Ypos=new Array();var dX=new Array();var dY=new Array();var stars=new Array();var decay=new Array();var swide=800;var shigh=600;var boddie;window.onload=function(){if(document.getElementById){var i;boddie=document.createElement("div");boddie.style.position="fixed";boddie.style.top="0px";boddie.style.left="0px";boddie.style.overflow="visible";boddie.style.width="1px";boddie.style.height="1px";boddie.style.backgroundColor="transparent";document.body.appendChild(boddie);set_width();for(i=0;i<bangs;i++){write_fire(i);launch(i);setInterval('stepthrough('+i+')',speed);}}}
+function write_fire(N){var i,rlef,rdow;stars[N+'r']=createDiv('|',12);boddie.appendChild(stars[N+'r']);for(i=bits*N;i<bits+bits*N;i++){stars[i]=createDiv('*',13);boddie.appendChild(stars[i]);}}
+function createDiv(char,size){var div=document.createElement("div");div.style.font=size+"px monospace";div.style.position="absolute";div.style.backgroundColor="transparent";div.appendChild(document.createTextNode(char));return(div);}
+function launch(N){colour[N]=Math.floor(Math.random()*colours.length);Xpos[N+"r"]=swide*0.5;Ypos[N+"r"]=shigh-5;bangheight[N]=Math.round((0.5+Math.random())*shigh*0.4);dX[N+"r"]=(Math.random()-0.5)*swide/bangheight[N];if(dX[N+"r"]>1.25)stars[N+"r"].firstChild.nodeValue="/";else if(dX[N+"r"]<-1.25)stars[N+"r"].firstChild.nodeValue="\\";else stars[N+"r"].firstChild.nodeValue="|";stars[N+"r"].style.color=colours[colour[N]];}
+function bang(N){var i,Z,A=0;for(i=bits*N;i<bits+bits*N;i++){Z=stars[i].style;Z.left=Xpos[i]+"px";Z.top=Ypos[i]+"px";if(decay[i])decay[i]--;else A++;if(decay[i]==15)Z.fontSize="10px";else if(decay[i]==7)Z.fontSize="2px";else if(decay[i]==1)Z.visibility="hidden";Xpos[i]+=dX[i];Ypos[i]+=(dY[i]+=1.25/intensity[N]);}
+if(A!=bits)setTimeout("bang("+N+")",speed);}
+function stepthrough(N){var i,M,Z;var oldx=Xpos[N+"r"];var oldy=Ypos[N+"r"];Xpos[N+"r"]+=dX[N+"r"];Ypos[N+"r"]-=4;if(Ypos[N+"r"]<bangheight[N]){M=Math.floor(Math.random()*3*colours.length);intensity[N]=5+Math.random()*4;for(i=N*bits;i<bits+bits*N;i++){Xpos[i]=Xpos[N+"r"];Ypos[i]=Ypos[N+"r"];dY[i]=(Math.random()-0.5)*intensity[N];dX[i]=(Math.random()-0.5)*(intensity[N]-Math.abs(dY[i]))*1.25;decay[i]=25+Math.floor(Math.random()*25);Z=stars[i];if(M<colours.length)Z.style.color=colours[i%2?colour[N]:M];else if(M<2*colours.length)Z.style.color=colours[colour[N]];else Z.style.color=colours[i%colours.length];Z.style.fontSize="20px";Z.style.visibility="visible";}
+bang(N);launch(N);}
+stars[N+"r"].style.left=oldx+"px";stars[N+"r"].style.top=oldy+"px";}
+window.onresize=set_width;function set_width(){var sw_min=999999;var sh_min=999999;if(document.documentElement&&document.documentElement.clientWidth){if(document.documentElement.clientWidth>0)sw_min=document.documentElement.clientWidth;if(document.documentElement.clientHeight>0)sh_min=document.documentElement.clientHeight;}
+if(typeof(self.innerWidth)!="undefined"&&self.innerWidth){if(self.innerWidth>0&&self.innerWidth<sw_min)sw_min=self.innerWidth;if(self.innerHeight>0&&self.innerHeight<sh_min)sh_min=self.innerHeight;}
+if(document.body.clientWidth){if(document.body.clientWidth>0&&document.body.clientWidth<sw_min)sw_min=document.body.clientWidth;if(document.body.clientHeight>0&&document.body.clientHeight<sh_min)sh_min=document.body.clientHeight;}
+if(sw_min==999999||sh_min==999999){sw_min=800;sh_min=600;}
+swide=sw_min;shigh=sh_min;}
+</script> -->
+
+<meta charset="utf-8">
+<title>Contact</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="address=no">
+<meta name="author" content="Pinochio">
+<meta name="description" content="About Me">
+
+<meta property="og:title" content="Lê Minh Tính">
+<meta property="og:type" content="website">
+<meta property="og:url" content="index.html">
+<meta property="og:image" content="assets/images/social.html">
+<meta property="og:description" content="Pinochio Huy">
+<meta property="og:site_name" content="Lê Minh Tính - Contact">
+
+<link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
+<link rel="shortcut icon" href="assets/images/favicons/favicon.html" type="image/png">
+
+<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+<link rel="stylesheet" type="text/css" href="assets/styles/style-dark.css">
+<link rel="stylesheet" type="text/css" href="assets/demo/style-demo.css">
+</head>
+<body>
+
+<div class="preloader">
+<div class="preloader__wrap">
+<div class="circle-pulse">
+<div class="circle-pulse__1"></div>
+<div class="circle-pulse__2"></div>
+</div>
+<div class="preloader__progress"><span></span></div>
+</div>
+</div>
+<main class="main">
+
+<div class="header-image">
+<div class="js-parallax" style="background-image: url(assets/img/image_header.jpg);"></div>
+</div>
+<div class="container gutter-top">
+
+<header class="header box">
+<div class="header__left">
+<div class="header__photo">
+<img class="header__photo-img" src="assets/img/main-photo.jpg" alt="Lê Minh Tính">
+</div>
+<div class="header__base-info">
+<h4 class="title titl--h4">Lê Minh Tính <span class="badge badge-pill badge-primary">-`ღ´-</span></h4>
+<div class="status">Tips</div>
+<ul class="header__social">
+<li><a href="https://www.facebook.com/181.STARTINHS"><i class="font-icon icon-facebook1"></i></a></li>
+<li><a href="https://www.twitter.com/"><i class="font-icon icon-twitter1"></i></a></li>
+<li><a href="https://www.instagram.com/i_am_tinhs/"><i class="font-icon icon-instagram1"></i></a></li>
+</ul>
+</div>
+</div>
+<div class="header__right">
+<ul class="header__contact">
+<li><span class="overhead">Email</span>Tinhcv181@gmail.com</li>
+<li><span class="overhead">Phone</span>+84 931-972-xxx</li>
+</ul>
+<ul class="header__contact">
+<li><span class="overhead">Birthday</span>18/01/2xxx</li>
+<li><span class="overhead">Location</span>Việt Nam</li>
+</ul>
+</div>
+</header>
+<div class="row sticky-parent">
+
+<aside class="col-12 col-md-12 col-lg-2">
+<div class="sidebar box sticky-column">
+<ul class="nav">
+<li class="nav__item"><a href="index-2.html"><i class="icon-user"></i>About</a></li>
+<li class="nav__item"><a href="resume.html"><i class="icon-file-text"></i>Resume</a></li>
+<li class="nav__item"><a href="media.html"><i class="icon-codesandbox"></i>Media</a></li>
+<li class="nav__item"><a href="blog.html"><i class="icon-book-open"></i>Blog</a></li>
+<li class="nav__item"><a class="active" href="contact.html"><i class="icon-book"></i>Contact</a></li>
+</ul>
+</div>
+</aside>
+
+<div class="col-12 col-md-12 col-lg-10">
+<div class="box box-content">
+<div class="pb-2">
+<h1 class="title title--h1 first-title title__separate">Contact</h1>
+</div>
+
+<form id="contact-form" class="contact-form" data-toggle="validator">
+<div class="row">
+<div class="form-group col-12 col-md-6">
+<input type="text" class="form-control" id="nameContact" name="nameContact" placeholder="Full name" required="required" autocomplete="on" oninvalid="setCustomValidity('Fill in the field')" onkeyup="setCustomValidity('')">
+<div class="help-block with-errors"></div>
+</div>
+<div class="form-group col-12 col-md-6">
+<input type="email" class="form-control" id="emailContact" name="emailContact" placeholder="Email address" required="required" autocomplete="on" oninvalid="setCustomValidity('Email is incorrect')" onkeyup="setCustomValidity('')">
+<div class="help-block with-errors"></div>
+</div>
+<div class="form-group col-12 col-md-12">
+<textarea class="textarea form-control" id="messageContact" name="messageContact" placeholder="Your Message" rows="4" required="required" oninvalid="setCustomValidity('Fill in the field')" onkeyup="setCustomValidity('')"></textarea>
+<div class="help-block with-errors"></div>
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-left">
+<div id="validator-contact" class="hidden"></div>
+</div>
+<div class="col-12 col-md-6 order-1 order-md-2 text-right">
+<button type="submit" class="btn"><i class="font-icon icon-send"></i> Send Message</button>
+</div>
+</div>
+</form>
+</div>
+
+<footer class="footer">Copyright © 2021 - Redesigned  by ❤️ <i aria-hidden="true" class="fa fa-heart" style="color: red; margin: 0 2px;"></i> <a href="https://startinhs.github.io/" title="Author">Lê Minh Tính</footer>
+</div>
+</div>
+</div>
+</main>
+<div class="back-to-top"></div>
+
+<svg class="svg-defs">
+<clippath id="avatar-box">
+<path d="M1.85379 38.4859C2.9221 18.6653 18.6653 2.92275 38.4858 1.85453 56.0986.905299 77.2792 0 94 0c16.721 0 37.901.905299 55.514 1.85453 19.821 1.06822 35.564 16.81077 36.632 36.63137C187.095 56.0922 188 77.267 188 94c0 16.733-.905 37.908-1.854 55.514-1.068 19.821-16.811 35.563-36.632 36.631C131.901 187.095 110.721 188 94 188c-16.7208 0-37.9014-.905-55.5142-1.855-19.8205-1.068-35.5637-16.81-36.63201-36.631C.904831 131.908 0 110.733 0 94c0-16.733.904831-37.9078 1.85379-55.5141z"></path>
+</clippath>
+<clippath id="avatar-hexagon">
+<path d="M0 27.2891c0-4.6662 2.4889-8.976 6.52491-11.2986L31.308 1.72845c3.98-2.290382 8.8697-2.305446 12.8637-.03963l25.234 14.31558C73.4807 18.3162 76 22.6478 76 27.3426V56.684c0 4.6805-2.5041 9.0013-6.5597 11.3186L44.4317 82.2915c-3.9869 2.278-8.8765 2.278-12.8634 0L6.55974 68.0026C2.50414 65.6853 0 61.3645 0 56.684V27.2891z"></path>
+</clippath>
+</svg>
+
+<div class="btnSlideNav slideOpen"></div>
+<div class="btnSlideNav slideClose"></div>
+<div class="slideNav">
+<ul class="list-unstyled">
+<li class="slideNav__item rtl-mode"><h4 class="title title--5">More pages</h4> <a href="index.html">Reload</a></li>
+<li class="slideNav__item"><a href="https://facebook.com/181.STARTINHS" , target="_blank">Contact Facebook</a></li>
+<li class="slideNav__item"><a href="https://www.facebook.com/Design.edit.systems">Fanpage Mọt Táo</a></li>
+<li class="slideNav__item"><a href="https://Startinhstips.blogspot.com/">Blog Tips</a></li>
+</ul>
+<a class="btn btn--dark" href="lightmode.html">Light Mode</a>
+</div>
+<div class="overlay-slideNav"></div>
+
+
+<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.4.1.min.js"></script>
+<script src="assets/js/plugins.min.js"></script>
+<script src="assets/js/common.js"></script>
+<script src="../maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="assets/demo/plugins-demo.js"></script>
+
+<script src="assets/js/mapbox.init.js"></script>
+<script src="assets/demo/plugins-demo.js"></script>
+</body>
+
+</html>
