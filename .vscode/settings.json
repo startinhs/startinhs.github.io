@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "xiosbase": "cpp",
+        "iosfwd": "cpp",
+        "sstream": "cpp",
+        "utility": "cpp",
+        "istream": "cpp",
+        "string": "cpp",
+        "algorithm": "cpp",
+        "limits": "cpp",
+        "iomanip": "cpp",
+        "ios": "cpp",
+        "deque": "cpp",
+        "initializer_list": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp",
+        "xutility": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
